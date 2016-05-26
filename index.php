@@ -15,6 +15,8 @@
 
     <title>Woo Woo Design</title>
 
+    <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+
 </head>
 
 <body>
