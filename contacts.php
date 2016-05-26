@@ -22,7 +22,7 @@
 
 <body>
 
-<menu>
+<div id="menu">
     <div id="menuContent">
         <a href="index.php"><div id="logo"></div></a>
         <div id="menuContainer">
@@ -40,8 +40,9 @@
             </div>
         </div>
     </div>
-    <div style="clear: both;"></div>
-</menu>
+</div>
+
+<div style="clear: both;"></div>
 
 </body>
 

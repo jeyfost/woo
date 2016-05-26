@@ -1,14 +1,24 @@
-html, body {margin: 0; padding: 0; background-color: #f8f8f8; color: #000;}
-menu {width: 100%; height: 110px; background-color: #fff; margin: 0;}
+html, body {margin: 0; padding: 0; background-color: #f8f8f8; color: #000; font-family: 'eb garamond', serif; font-size: 18px;}
 a {border: none; text-decoration: none;}
+img {-moz-user-select: none; -webkit-user-select: none; -ms-user-select: none; user-select: none; pointer-events: none;}
 
+#menu {width: 100%; height: 110px; background-color: #fff; margin: 0;}
 #menuContent {position: relative; margin: 0 auto; width: 1000px; height: 100%;}
 #logo {position: relative; float: left; width: 285px; height: 100%; background: url(../img/logo.png) top left no-repeat;}
 #menuContainer {position: relative; float: right; height: 100%; width: 400px;}
 #menuTopLine {position: relative; float: left; width: 100%; height: 5px;}
 #menuPoints {position: relative; float: left; width: 100%; height: 105px;}
+#content {position: relative; margin: 50px auto 0 auto; width: 1000px;}
+#mainHalf a {color: #a22222;}
+#info {position: relative; float: left; width: 460px; background-color: #fff; box-shadow: 0 0 5px rgba(0,0,0,0.3); margin-top: 10px; padding: 10px; z-index: 999999; opacity: 0; transition: .3s;}
 
 .menuPoint {position: relative; float: right; width: 100px; height: 100%; text-align: center; line-height: 110px; font-family: 'open sans condensed', sans-serif; font-size: 24px; color: #000; transition: .3s;}
 .menuPointActive {position: relative; float: right; width: 100px; height: 100%; text-align: center; line-height: 110px; font-family: 'open sans condensed', sans-serif; font-size: 24px; color: #aaa; transition: .3s; background-color: #f8f8f8;}
 .menuTopLineSection {position: relative; float: right; width: 100px; height: 100%; transition: .3s;}
 .menuTopLineSectionActive {position: relative; float: right; width: 100px; height: 3px; background-color: #a22222; transition: .3s;}
+.centerContainer {text-align: center;}
+.halfContainer {position: relative; float: left; width: 480px; padding: 10px; text-align: left;}
+.headerFont {font-family: 'open sans condensed', sans-serif; color: #000; font-size: 24px;}
+.personContainer {width: 225px; min-height: 300px; background-color: #fff; text-align: center; position: relative; float: left; padding: 5px; box-shadow: 0 0 5px rgba(0,0,0,0.3); cursor: help;}
+.nameFont {font-family: 'open sans condensed', sans-serif; font-size: 20px; color: #a22222;}
+.overlay {position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-color: #a22222; opacity: 0; transition: .3s;}
