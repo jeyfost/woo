@@ -16,10 +16,32 @@
     <title>Woo Woo Design</title>
 
     <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script type="text/javascript" src="js/menu.js"></script>
 
 </head>
 
 <body>
+
+<menu>
+    <div id="menuContent">
+        <a href="index.php"><div id="logo"></div></a>
+        <div id="menuContainer">
+            <div id="menuTopLine">
+                <div class="menuTopLineSection"></div>
+                <div class="menuTopLineSection"></div>
+                <div class="menuTopLineSection"></div>
+                <div class="menuTopLineSectionActive"></div>
+            </div>
+            <div id="menuPoints">
+                <a href="contacts.php"><div class="menuPoint" id="mpContacts" onmouseover="mpHover(1, 'mpContacts')" onmouseout="mpHover(0, 'mpContacts')">Контакты</div></a>
+                <a href="price.php"><div class="menuPoint" id="mpPrice" onmouseover="mpHover(1, 'mpPrice')" onmouseout="mpHover(0, 'mpPrice')">Прайс</div></a>
+                <a href="works.php"><div class="menuPoint" id="mpWorks" onmouseover="mpHover(1, 'mpWorks')" onmouseout="mpHover(0, 'mpWorks')">Работы</div></a>
+                <a href="index.php"><div class="menuPointActive" id="mpMain">Главная</div></a>
+            </div>
+        </div>
+    </div>
+    <div style="clear: both;"></div>
+</menu>
 
 </body>
 
