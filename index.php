@@ -59,7 +59,7 @@ include("scripts/connect.php");
             <br /><br />
             <?php
 
-            $textResult = $mysqli->query("SELECT * FROM text");
+            $textResult = $mysqli->query("SELECT * FROM woo_text");
             $text = $textResult->fetch_assoc();
 
             echo $text['team_text'];
@@ -69,7 +69,7 @@ include("scripts/connect.php");
         <div class="halfContainer">
             <?php
 
-            $photosResult = $mysqli->query("SELECT * FROM about_photos");
+            $photosResult = $mysqli->query("SELECT * FROM woo_about_photos");
             $photos = $photosResult->fetch_assoc();
 
             echo "
@@ -111,7 +111,7 @@ include("scripts/connect.php");
                 <br /><br />
                 <?php
 
-                $contactsResult = $mysqli->query("SELECT * FROM contacts");
+                $contactsResult = $mysqli->query("SELECT * FROM woo_contacts");
                 $contacts = $contactsResult->fetch_assoc();
 
                 echo $contacts['country'].", г. ".$contacts['city']."<br />".$contacts['address'];

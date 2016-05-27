@@ -30,4 +30,8 @@ img {-moz-user-select: none; -webkit-user-select: none; -ms-user-select: none; u
 .footerSection {position: relative; float: left; width: 33%; height: 100%;}
 .workPreview {display: inline-block; vertical-align: middle; width: 300px; min-height: 300px; background-color: #fff; box-shadow: 0 0 5px rgba(0,0,0,0.3); letter-spacing: normal; margin-top: 20px; padding: 10px;}
 .workPhoto {max-width: 480px; box-shadow: 0 0 5px rgba(0,0,0,0.3);}
-.categoryFont {color: #aaa;}
+.categoryFont {color: #777;}
+.container {position: relative; float: left; width: 100%; margin-top: 20px;}
+.priceNameContainer {position: relative; float: left; width: 100%; height: 40px; line-height: 40px; padding: 10px auto; background-color: #eee; text-align: center; box-shadow: 0 0 5px rgba(0,0,0,0.3);}
+.priceLeft {position: relative; float: left; width: 260px; background-color: #fff; box-shadow: 0 0 5px rgba(0,0,0,0.3); min-height: 260px; padding: 20px; text-align: center;}
+.priceRight {position: relative; float: left; width: 690px; box-shadow: 0 0 5px rgba(0,0,0,0.3); height: 300px;}

@@ -3,7 +3,7 @@
 include("scripts/connect.php");
 
 if(!empty($_REQUEST['id'])) {
-    $workResult = $mysqli->query("SELECT * FROM works WHERE id = '".htmlspecialchars($_REQUEST['id'])."'");
+    $workResult = $mysqli->query("SELECT * FROM woo_works WHERE id = '".htmlspecialchars($_REQUEST['id'])."'");
     if($workResult->num_rows == 0) {
         header("Location: works.php");
     } else {
@@ -65,7 +65,7 @@ if(!empty($_REQUEST['id'])) {
     <?php
 
     if(empty($_REQUEST['id'])) {
-        $workResult = $mysqli->query("SELECT * FROM works ORDER BY id DESC");
+        $workResult = $mysqli->query("SELECT * FROM woo_works ORDER BY id DESC");
         $count = 0;
 
         while($work = $workResult->fetch_assoc()) {
@@ -83,7 +83,7 @@ if(!empty($_REQUEST['id'])) {
             $count++;
         }
     } else {
-        $photoResult = $mysqli->query("SELECT * FROM works_photos WHERE work_id = '".htmlspecialchars($_REQUEST['id'])."'");
+        $photoResult = $mysqli->query("SELECT * FROM woo_works_photos WHERE work_id = '".htmlspecialchars($_REQUEST['id'])."'");
 
         echo "
             <div class='halfContainer' id='workPhotosContainer'>
@@ -128,7 +128,7 @@ if(!empty($_REQUEST['id'])) {
             <br /><br />
             <?php
 
-            $contactsResult = $mysqli->query("SELECT * FROM contacts");
+            $contactsResult = $mysqli->query("SELECT * FROM woo_contacts");
             $contacts = $contactsResult->fetch_assoc();
 
             echo $contacts['country'].", г. ".$contacts['city']."<br />".$contacts['address'];
