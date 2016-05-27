@@ -102,12 +102,12 @@ if(!empty($_REQUEST['id'])) {
                 <br /><br />
                 ".$work['description']."
                 <br /><br />
-                <a href='works.php'>
-                    <div id='button'>
+                <div id='button'>
+                    <a href='works.php'>
                         <span class='nameFont'>Назад</span>
                         <div class='overlay' id='buttonOverlay'></div>
-                    </div>
-                </a>
+                    </a>
+                </div>
             </div>
         ";
     }
