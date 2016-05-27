@@ -2,6 +2,15 @@
 
 include("scripts/connect.php");
 
+if(!empty($_REQUEST['id'])) {
+    $workResult = $mysqli->query("SELECT * FROM works WHERE id = '".htmlspecialchars($_REQUEST['id'])."'");
+    if($workResult->num_rows == 0) {
+        header("Location: works.php");
+    } else {
+        $work = $workResult->fetch_assoc();
+    }
+}
+
 ?>
 
 <!doctype html>
@@ -15,6 +24,7 @@ include("scripts/connect.php");
     <meta name="description" content="">
 
     <link rel='stylesheet' type='text/css' href='css/style.css'>
+    <link rel='stylesheet' type='text/css' href='js/shadowbox/shadowbox.css'>
 
     <link rel="icon" href="img/favicon.ico" type="image/x-icon">
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
@@ -22,6 +32,7 @@ include("scripts/connect.php");
     <title>Работы | Woo Woo Design</title>
 
     <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script type="text/javascript" src="js/shadowbox/shadowbox.js"></script>
     <script type="text/javascript" src="js/menu.js"></script>
     <script type="text/javascript" src="js/footer.js"></script>
     <script type="text/javascript" src="js/works.js"></script>
@@ -71,6 +82,34 @@ include("scripts/connect.php");
 
             $count++;
         }
+    } else {
+        $photoResult = $mysqli->query("SELECT * FROM works_photos WHERE work_id = '".htmlspecialchars($_REQUEST['id'])."'");
+
+        echo "
+            <div class='halfContainer' id='workPhotosContainer'>
+        ";
+
+        while($photo = $photoResult->fetch_assoc()) {
+            echo "<a href='img/works/big/".$photo['big']."' rel='shadowbox[set]'><div><img src='img/works/big/".$photo['big']."' class='workPhoto' /></div></a><br />";
+        }
+
+        echo "
+            </div>
+            <div class='halfContainer' id='workDescriptionContainer'>
+                <span class='headerFont'>".$work['name']."</span>
+                <br /><br />
+                <span class='categoryFont'>техника: </span>".$work['technics']."
+                <br /><br />
+                ".$work['description']."
+                <br /><br />
+                <a href='works.php'>
+                    <div id='button'>
+                        <span class='nameFont'>Назад</span>
+                        <div class='overlay' id='buttonOverlay'></div>
+                    </div>
+                </a>
+            </div>
+        ";
     }
 
     ?>

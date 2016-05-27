@@ -13,12 +13,14 @@ img {-moz-user-select: none; -webkit-user-select: none; -ms-user-select: none; u
 #info {position: absolute; right: 10px; top: 320px; width: 460px; background-color: #fff; box-shadow: 0 0 5px rgba(0,0,0,0.3); margin-top: 10px; padding: 10px; z-index: 999999; opacity: 0; transition: .3s;}
 #footer {width: 100%; height: 140px; background-color: #fff; margin: 100px 0 0 0;}
 #footerContent {position: relative; margin: 0 auto; width: 1000px; height: 120px; padding: 10px 0;}
+#workDescriptionContainer {letter-spacing: normal; width: 440px; padding: 10px 10px 10px 50px;}
+#button {width: 150px; height: 50px; line-height: 50px; box-shadow: 0 0 5px rgba(0,0,0,0.3); text-align: center; position: relative; clear: both;}
 
 .menuPoint {position: relative; float: right; width: 100px; height: 100%; text-align: center; line-height: 110px; font-family: 'open sans condensed', sans-serif; font-size: 24px; color: #000; transition: .3s;}
 .menuPointActive {position: relative; float: right; width: 100px; height: 100%; text-align: center; line-height: 110px; font-family: 'open sans condensed', sans-serif; font-size: 24px; color: #aaa; transition: .3s; background-color: #f8f8f8;}
 .menuTopLineSection {position: relative; float: right; width: 100px; height: 100%; transition: .3s;}
 .menuTopLineSectionActive {position: relative; float: right; width: 100px; height: 3px; background-color: #a22222; transition: .3s;}
-.centerContainer {text-align: center;}
+.centerContainer, #workPhotosContainer {text-align: center;}
 .halfContainer {position: relative; float: left; width: 480px; padding: 10px; text-align: left;}
 .headerFont {font-family: 'open sans condensed', sans-serif; color: #000; font-size: 24px;}
 .personContainer {width: 225px; min-height: 300px; background-color: #fff; text-align: center; position: relative; float: left; padding: 5px; box-shadow: 0 0 5px rgba(0,0,0,0.3); cursor: help;}
@@ -27,3 +29,5 @@ img {-moz-user-select: none; -webkit-user-select: none; -ms-user-select: none; u
 .workOverlay {position: absolute; background-color: #a22222; opacity: 0; transition: .3s;}
 .footerSection {position: relative; float: left; width: 33%; height: 100%;}
 .workPreview {display: inline-block; vertical-align: middle; width: 300px; min-height: 300px; background-color: #fff; box-shadow: 0 0 5px rgba(0,0,0,0.3); letter-spacing: normal; margin-top: 20px; padding: 10px;}
+.workPhoto {max-width: 480px; box-shadow: 0 0 5px rgba(0,0,0,0.3);}
+.categoryFont {color: #aaa;}
