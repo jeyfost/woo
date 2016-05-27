@@ -104,7 +104,7 @@ include("scripts/connect.php");
             <div class="footerSection">
                 <a href="index.php"><span class="headerFont">WOO WOO DESIGN</span></a>
                 <br />
-                <span style="font-size: 16px;">Создание сайта и дизайн: <a href="http://airlab.by">студия airlab</a></span>
+                <span style="font-size: 16px;">Создание сайта и дизайн: <a href="http://airlab.by">airlab</a></span>
             </div>
             <div class="footerSection" style="width: 34%;">
                 <span class="headerFont">Как нас найти?</span>

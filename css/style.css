@@ -24,4 +24,6 @@ img {-moz-user-select: none; -webkit-user-select: none; -ms-user-select: none; u
 .personContainer {width: 225px; min-height: 300px; background-color: #fff; text-align: center; position: relative; float: left; padding: 5px; box-shadow: 0 0 5px rgba(0,0,0,0.3); cursor: help;}
 .nameFont {font-family: 'open sans condensed', sans-serif; font-size: 20px; color: #a22222;}
 .overlay {position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-color: #a22222; opacity: 0; transition: .3s;}
+.workOverlay {position: absolute; background-color: #a22222; opacity: 0; transition: .3s;}
 .footerSection {position: relative; float: left; width: 33%; height: 100%;}
+.workPreview {display: inline-block; vertical-align: middle; width: 300px; min-height: 300px; background-color: #fff; box-shadow: 0 0 5px rgba(0,0,0,0.3); letter-spacing: normal; margin-top: 20px; padding: 10px;}
