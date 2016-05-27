@@ -24,6 +24,7 @@ include("scripts/connect.php");
     <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
     <script type="text/javascript" src="js/menu.js"></script>
     <script type="text/javascript" src="js/index.js"></script>
+    <script type="text/javascript" src="js/footer.js"></script>
 
 </head>
 
@@ -52,7 +53,7 @@ include("scripts/connect.php");
 <div style="clear: both;"></div>
 
 <div id="content">
-    <div class="centerContainer">
+    <div class="centerContainer" id="mainCenterContainer">
         <div class="halfContainer" id="mainHalf">
             <span class="headerFont">Кто мы?</span>
             <br /><br />
@@ -88,10 +89,44 @@ include("scripts/connect.php");
             ";
 
             ?>
-
-            <div id="info"></div>
         </div>
         <div style="clear: both;"></div>
+        <br /><br />
+        <span class="headerFont" style="color: #a22222;"><?php echo $text['about_slogan']; ?></span>
+    </div>
+
+    <div id="info"></div>
+
+</div>
+
+<div id="footer">
+    <div id="footerContent">
+            <div class="footerSection">
+                <a href="index.php"><span class="headerFont">WOO WOO DESIGN</span></a>
+                <br />
+                <span style="font-size: 16px;">Создание сайта и дизайн: <a href="http://airlab.by">студия airlab</a></span>
+            </div>
+            <div class="footerSection" style="width: 34%;">
+                <span class="headerFont">Как нас найти?</span>
+                <br /><br />
+                <?php
+
+                $contactsResult = $mysqli->query("SELECT * FROM contacts");
+                $contacts = $contactsResult->fetch_assoc();
+
+                echo $contacts['country'].", г. ".$contacts['city']."<br />".$contacts['address'];
+
+                ?>
+            </div>
+            <div class="footerSection">
+                <span class="headerFont">Как с нами связаться?</span>
+                <br /><br />
+                <?php
+
+                echo $contacts['phone1']."<br />".$contacts['phone2']."<br /><a href='mailto:".$contacts['email']."'>".$contacts['email']."</a>";
+
+                ?>
+            </div>
     </div>
 </div>
 
