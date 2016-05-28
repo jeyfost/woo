@@ -1,3 +1,9 @@
+<?php
+
+include("scripts/connect.php");
+
+?>
+
 <!doctype html>
 
 <html>
@@ -17,6 +23,9 @@
 
     <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
     <script type="text/javascript" src="js/menu.js"></script>
+    <script type="text/javascript" src="js/footer.js"></script>
+    <script type="text/javascript" src="js/contacts.js"></script>
+    <script type="text/javascript" src="js/works.js"></script>
 
 </head>
 
@@ -41,8 +50,70 @@
         </div>
     </div>
 </div>
-
 <div style="clear: both;"></div>
+
+<div id="content" style="text-align: center;">
+    <img src="img/plane.png" />
+    <br /><br />
+    <span class="headerFont">Свяжитесь с нами</span>
+    <br /><br />
+    <?php
+
+    $contactsResult = $mysqli->query("SELECT * FROM woo_contacts");
+    $contacts = $contactsResult->fetch_assoc();
+
+    ?>
+    <a href="mailto:woowoodesign@gmail.com" id="email">woowoodesign@gmail.com</a>
+    <br />
+    <?php echo $contacts['phone1'] ?>
+    <br />
+    <?php echo $contacts['phone2'] ?>
+    <br /><br />
+    <form id="contactFrom">
+        <input type="text" id="nameInput" />
+        <br />
+        <input type="text" id="emailInput" />
+        <br />
+        <input type="text" id="themeInput" />
+        <br />
+        <textarea id="messageInput" onkeydown='textAreaHeight(this)'></textarea>
+        <br /><br />
+        <div id="responseField"></div>
+        <br />
+        <div id="button" style="left: 50%; margin-left: 145px;">
+            <span class="nameFont">Отправить</span>
+            <div class="overlay" id="buttonOverlay"></div>
+        </div>
+    </form>
+</div>
+
+<div id="footer">
+    <div id="footerContent">
+        <div class="footerSection">
+            <a href="index.php"><span class="headerFont">WOO WOO DESIGN</span></a>
+            <br />
+            <span style="font-size: 16px;">Создание сайта и дизайн: <a href="http://airlab.by">airlab</a></span>
+        </div>
+        <div class="footerSection" style="width: 34%;">
+            <span class="headerFont">Как нас найти?</span>
+            <br /><br />
+            <?php
+
+            echo $contacts['country'].", г. ".$contacts['city']."<br />".$contacts['address'];
+
+            ?>
+        </div>
+        <div class="footerSection">
+            <span class="headerFont">Как с нами связаться?</span>
+            <br /><br />
+            <?php
+
+            echo $contacts['phone1']."<br />".$contacts['phone2']."<br /><a href='mailto:".$contacts['email']."'>".$contacts['email']."</a>";
+
+            ?>
+        </div>
+    </div>
+</div>
 
 </body>
 
