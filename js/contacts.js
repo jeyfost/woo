@@ -80,7 +80,74 @@ $(window).load(function() {
         var message = $('#messageInput').val();
 
         if(name != "" && name != "Имя" && email != "" && email != "email" && theme != "" && theme != "Тема" && message != "" && message != "Сообщение") {
+            $.ajax({
+                type: 'POST',
+                data: {"name": name, "email": email, "theme": theme, "message": message},
+                url: 'scripts/ajaxContact.php',
+                beforeSend: function() {
+                    if($('#responseField').css('opacity') == '1') {
+                        $('#responseField').css('opacity', '0');
+                        setTimeout(function() {
+                            $('#responseField').html("<img src='img/preloader.gif' />");
+                        }, 300);
+                    } else {
+                        $('#responseField').html("<img src='img/preloader.gif' />");
+                    }
+                },
+                success: function(response) {
+                    switch(response) {
+                        case "email":
+                            if($('#responseField').css('opacity') == '1') {
+                                $('#responseField').css('opacity', '0');
+                                setTimeout(function() {
+                                    $('#responseField').css('color', '#a22222');
+                                    $('#responseField').html('Введите верный email.');
+                                    $('#responseField').css('opacity', '1');
+                                }, 300);
+                            } else {
+                                $('#responseField').css('color', '#a22222');
+                                $('#responseField').html('Введите верный email.');
+                                $('#responseField').css('opacity', '1');
+                            }
+                            break;
+                        case "failed":
+                            if($('#responseField').css('opacity') == '1') {
+                                $('#responseField').css('opacity', '0');
+                                setTimeout(function() {
+                                    $('#responseField').css('color', '#a22222');
+                                    $('#responseField').html('При отправке письма произошла ошибка.');
+                                    $('#responseField').css('opacity', '1');
+                                }, 300);
+                            } else {
+                                $('#responseField').css('color', '#a22222');
+                                $('#responseField').html('При отправке письма произошла ошибка.');
+                                $('#responseField').css('opacity', '1');
+                            }
+                            break;
+                        case "ok":
+                            if($('#responseField').css('opacity') == '1') {
+                                $('#responseField').css('opacity', '0');
+                                setTimeout(function() {
+                                    $('#responseField').css('color', '#53acff');
+                                    $('#responseField').html('Пиьсмо успешно отправлено. Мы скоро вам ответим.');
+                                    $('#responseField').css('opacity', '1');
+                                }, 300);
+                            } else {
+                                $('#responseField').css('color', '#53acff');
+                                $('#responseField').html('Пиьсмо успешно отправлено. Мы скоро вам ответим.');
+                                $('#responseField').css('opacity', '1');
+                            }
 
+                            $('#nameInput').val("Имя");
+                            $('#emailInput').val("email");
+                            $('#themeInput').val("Тема");
+                            $('#messageInput').val("Сообщение");
+                            break;
+                        default:
+                            break;
+                    }
+                }
+            });
         } else {
             if($('#responseField').css('opacity') == '1') {
                 $('#responseField').css('opacity', '0');

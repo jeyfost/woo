@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f9898053-d2e7-4958-bf35-ef51ecbfb151" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/contacts.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scripts/ajaxContact.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/contacts.php" afterPath="$PROJECT_DIR$/contacts.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/contacts.js" afterPath="$PROJECT_DIR$/js/contacts.js" />
     </list>
     <ignored path="woo2.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -30,14 +29,9 @@
       <file leaf-file-name="contacts.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/contacts.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.5">
+            <state vertical-scroll-proportion="0.0">
               <caret line="81" column="14" selection-start-line="81" selection-start-column="14" selection-end-line="81" selection-end-column="14" />
               <folding>
-                <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#form#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <marker date="1464432436848" expanded="true" signature="2143:2169" placeholder="SELECT * FRO... woo_contacts" />
               </folding>
             </state>
@@ -47,7 +41,7 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-10.461538">
+            <state vertical-scroll-proportion="-12.423077">
               <caret line="19" column="92" selection-start-line="19" selection-start-column="92" selection-end-line="19" selection-end-column="92" />
               <folding />
             </state>
@@ -57,8 +51,18 @@
       <file leaf-file-name="contacts.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/contacts.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.58592695">
-              <caret line="84" column="59" selection-start-line="84" selection-start-column="59" selection-end-line="84" selection-end-column="59" />
+            <state vertical-scroll-proportion="0.8051421">
+              <caret line="95" column="18" selection-start-line="95" selection-start-column="18" selection-end-line="95" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ajaxContact.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scripts/ajaxContact.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-18.307692">
+              <caret line="28" column="20" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -98,6 +102,7 @@
         <option value="$PROJECT_DIR$/scripts/ajaxNData.php" />
         <option value="$PROJECT_DIR$/contacts.php" />
         <option value="$PROJECT_DIR$/css/style.css" />
+        <option value="$PROJECT_DIR$/scripts/ajaxContact.php" />
         <option value="$PROJECT_DIR$/js/contacts.js" />
       </list>
     </option>
@@ -142,7 +147,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -238,6 +242,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -352,7 +357,13 @@
       <option name="project" value="LOCAL" />
       <updated>1464370107967</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Создана страница контактов">
+      <created>1464432831536</created>
+      <option name="number" value="00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1464432831536</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -400,44 +411,36 @@
     <MESSAGE value="Создана страница работы" />
     <MESSAGE value="UPD" />
     <MESSAGE value="Изменены названия таблиц БД" />
-    <option name="LAST_COMMIT_MESSAGE" value="Изменены названия таблиц БД" />
+    <MESSAGE value="Создана страница контактов" />
+    <option name="LAST_COMMIT_MESSAGE" value="Создана страница контактов" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/price.php">
+    <entry file="file://$PROJECT_DIR$/contacts.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1464368887046" expanded="true" signature="1837:1883" placeholder="SELECT * FRO... woo_price_categories" />
-            <marker date="1464368887046" expanded="true" signature="2002:2164" placeholder="..." />
-            <marker date="1464368887046" expanded="true" signature="2002:4205" placeholder="..." />
-            <marker date="1464368887046" expanded="true" signature="2051:2155" placeholder="..." />
-            <marker date="1464368887046" expanded="true" signature="2208:2275" placeholder="SELECT * FRO... woo_price" />
-            <marker date="1464368887046" expanded="true" signature="2396:2422" placeholder="SELECT unit units" />
-            <marker date="1464368887046" expanded="true" signature="2396:2435" placeholder="SELECT unit units" />
-            <marker date="1464368887046" expanded="true" signature="2396:2454" placeholder="SELECT unit units" />
-            <marker date="1464368887046" expanded="true" signature="2616:3253" placeholder="..." />
-            <marker date="1464368887046" expanded="true" signature="2664:2718" placeholder="..." />
-            <marker date="1464368887046" expanded="true" signature="2664:2816" placeholder="..." />
-            <marker date="1464368887046" expanded="true" signature="2664:2971" placeholder="..." />
-            <marker date="1464368887046" expanded="true" signature="2664:2995" placeholder="..." />
-            <marker date="1464368887046" expanded="true" signature="2664:3045" placeholder="..." />
-            <marker date="1464368887046" expanded="true" signature="3102:3120" placeholder="..." />
-            <marker date="1464368887046" expanded="true" signature="3121:3170" placeholder="..." />
-            <marker date="1464368887046" expanded="true" signature="3121:3226" placeholder="..." />
-            <marker date="1464368887046" expanded="true" signature="3287:3299" placeholder="..." />
-            <marker date="1464368887046" expanded="true" signature="3413:4050" placeholder="..." />
-            <marker date="1464368887046" expanded="true" signature="3462:3567" placeholder="..." />
-            <marker date="1464368887046" expanded="true" signature="3623:3641" placeholder="..." />
-            <marker date="1464368887046" expanded="true" signature="3642:4023" placeholder="..." />
-            <marker date="1464368887046" expanded="true" signature="4084:4096" placeholder="..." />
-            <marker date="1464368887046" expanded="true" signature="4231:4243" placeholder="..." />
-            <marker date="1464368887046" expanded="true" signature="4803:4829" placeholder="SELECT * FRO... woo_contacts" />
+            <marker date="1464432436848" expanded="true" signature="2143:2169" placeholder="SELECT * FRO... woo_contacts" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="19" column="92" selection-start-line="19" selection-start-column="92" selection-end-line="19" selection-end-column="92" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/price.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -453,33 +456,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1464368887046" expanded="true" signature="1837:1883" placeholder="SELECT * FRO... woo_price_categories" />
-            <marker date="1464368887046" expanded="true" signature="2002:2164" placeholder="..." />
-            <marker date="1464368887046" expanded="true" signature="2002:4205" placeholder="..." />
-            <marker date="1464368887046" expanded="true" signature="2051:2155" placeholder="..." />
-            <marker date="1464368887046" expanded="true" signature="2208:2275" placeholder="SELECT * FRO... woo_price" />
-            <marker date="1464368887046" expanded="true" signature="2396:2422" placeholder="SELECT unit units" />
-            <marker date="1464368887046" expanded="true" signature="2396:2435" placeholder="SELECT unit units" />
-            <marker date="1464368887046" expanded="true" signature="2396:2454" placeholder="SELECT unit units" />
-            <marker date="1464368887046" expanded="true" signature="2616:3253" placeholder="..." />
-            <marker date="1464368887046" expanded="true" signature="2664:2718" placeholder="..." />
-            <marker date="1464368887046" expanded="true" signature="2664:2816" placeholder="..." />
-            <marker date="1464368887046" expanded="true" signature="2664:2971" placeholder="..." />
-            <marker date="1464368887046" expanded="true" signature="2664:2995" placeholder="..." />
-            <marker date="1464368887046" expanded="true" signature="2664:3045" placeholder="..." />
-            <marker date="1464368887046" expanded="true" signature="3102:3120" placeholder="..." />
-            <marker date="1464368887046" expanded="true" signature="3121:3170" placeholder="..." />
-            <marker date="1464368887046" expanded="true" signature="3121:3226" placeholder="..." />
-            <marker date="1464368887046" expanded="true" signature="3287:3299" placeholder="..." />
-            <marker date="1464368887046" expanded="true" signature="3413:4050" placeholder="..." />
-            <marker date="1464368887046" expanded="true" signature="3462:3567" placeholder="..." />
-            <marker date="1464368887046" expanded="true" signature="3623:3641" placeholder="..." />
-            <marker date="1464368887046" expanded="true" signature="3642:4023" placeholder="..." />
-            <marker date="1464368887046" expanded="true" signature="4084:4096" placeholder="..." />
-            <marker date="1464368887046" expanded="true" signature="4231:4243" placeholder="..." />
-            <marker date="1464368887046" expanded="true" signature="4803:4829" placeholder="SELECT * FRO... woo_contacts" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -495,17 +471,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="102" column="28" selection-start-line="102" selection-start-column="28" selection-end-line="102" selection-end-column="28" />
-          <folding>
-            <marker date="1464368887029" expanded="true" signature="2112:2134" placeholder="SELECT * FRO... text" />
-            <marker date="1464368887029" expanded="true" signature="2354:2384" placeholder="SELECT * FRO... about_photos" />
-            <marker date="1464368887029" expanded="true" signature="2517:2557" placeholder="..." />
-            <marker date="1464368887029" expanded="true" signature="2517:2558" placeholder="..." />
-            <marker date="1464368887029" expanded="true" signature="2517:2674" placeholder="..." />
-            <marker date="1464368887029" expanded="true" signature="2517:2758" placeholder="..." />
-            <marker date="1464368887029" expanded="true" signature="2788:2866" placeholder="..." />
-            <marker date="1464368887029" expanded="true" signature="2932:3173" placeholder="..." />
-            <marker date="1464368887029" expanded="true" signature="3989:4015" placeholder="SELECT * FRO... contacts" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -557,17 +522,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="65" column="14" selection-start-line="65" selection-start-column="14" selection-end-line="65" selection-end-column="14" />
-          <folding>
-            <marker date="1464368887029" expanded="true" signature="2112:2134" placeholder="SELECT * FRO... text" />
-            <marker date="1464368887029" expanded="true" signature="2354:2384" placeholder="SELECT * FRO... about_photos" />
-            <marker date="1464368887029" expanded="true" signature="2517:2557" placeholder="..." />
-            <marker date="1464368887029" expanded="true" signature="2517:2558" placeholder="..." />
-            <marker date="1464368887029" expanded="true" signature="2517:2674" placeholder="..." />
-            <marker date="1464368887029" expanded="true" signature="2517:2758" placeholder="..." />
-            <marker date="1464368887029" expanded="true" signature="2788:2866" placeholder="..." />
-            <marker date="1464368887029" expanded="true" signature="2932:3173" placeholder="..." />
-            <marker date="1464368887029" expanded="true" signature="3989:4015" placeholder="SELECT * FRO... contacts" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -619,7 +573,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -668,17 +621,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-7.8076925">
           <caret line="113" column="68" selection-start-line="113" selection-start-column="68" selection-end-line="113" selection-end-column="68" />
-          <folding>
-            <marker date="1464368887029" expanded="true" signature="2112:2134" placeholder="SELECT * FRO... text" />
-            <marker date="1464368887029" expanded="true" signature="2354:2384" placeholder="SELECT * FRO... about_photos" />
-            <marker date="1464368887029" expanded="true" signature="2517:2557" placeholder="..." />
-            <marker date="1464368887029" expanded="true" signature="2517:2558" placeholder="..." />
-            <marker date="1464368887029" expanded="true" signature="2517:2674" placeholder="..." />
-            <marker date="1464368887029" expanded="true" signature="2517:2758" placeholder="..." />
-            <marker date="1464368887029" expanded="true" signature="2788:2866" placeholder="..." />
-            <marker date="1464368887029" expanded="true" signature="2932:3173" placeholder="..." />
-            <marker date="1464368887029" expanded="true" signature="3989:4015" placeholder="SELECT * FRO... contacts" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -686,24 +628,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-6.5">
           <caret line="130" column="64" selection-start-line="130" selection-start-column="64" selection-end-line="130" selection-end-column="64" />
-          <folding>
-            <marker date="1464368887063" expanded="true" signature="104:138" placeholder="SELECT * FRO... works" />
-            <marker date="1464368887063" expanded="true" signature="104:140" placeholder="SELECT * FRO... works" />
-            <marker date="1464368887063" expanded="true" signature="104:178" placeholder="SELECT * FRO... works" />
-            <marker date="1464368887063" expanded="true" signature="2409:2449" placeholder="SELECT * FRO... works" />
-            <marker date="1464368887063" expanded="true" signature="2862:3159" placeholder="..." />
-            <marker date="1464368887063" expanded="true" signature="3282:3328" placeholder="SELECT * FRO... works_photos" />
-            <marker date="1464368887063" expanded="true" signature="3282:3368" placeholder="SELECT * FRO... works_photos" />
-            <marker date="1464368887063" expanded="true" signature="3451:3460" placeholder="..." />
-            <marker date="1464368887063" expanded="true" signature="3451:3730" placeholder="..." />
-            <marker date="1464368887063" expanded="true" signature="3800:3955" placeholder="..." />
-            <marker date="1464368887063" expanded="true" signature="3800:3956" placeholder="..." />
-            <marker date="1464368887063" expanded="true" signature="3800:4022" placeholder="..." />
-            <marker date="1464368887063" expanded="true" signature="3800:4348" placeholder="..." />
-            <marker date="1464368887063" expanded="true" signature="4109:4329" placeholder="..." />
-            <marker date="1464368887063" expanded="true" signature="4150:4306" placeholder="..." />
-            <marker date="1464368887063" expanded="true" signature="4938:4964" placeholder="SELECT * FRO... woo_contacts" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -718,7 +642,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.2622721">
           <caret line="11" column="48" selection-start-line="11" selection-start-column="48" selection-end-line="11" selection-end-column="48" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -733,33 +656,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-9.769231">
           <caret line="117" column="0" selection-start-line="117" selection-start-column="0" selection-end-line="146" selection-end-column="6" />
-          <folding>
-            <marker date="1464368887046" expanded="true" signature="1837:1883" placeholder="SELECT * FRO... woo_price_categories" />
-            <marker date="1464368887046" expanded="true" signature="2002:2164" placeholder="..." />
-            <marker date="1464368887046" expanded="true" signature="2002:4205" placeholder="..." />
-            <marker date="1464368887046" expanded="true" signature="2051:2155" placeholder="..." />
-            <marker date="1464368887046" expanded="true" signature="2208:2275" placeholder="SELECT * FRO... woo_price" />
-            <marker date="1464368887046" expanded="true" signature="2396:2422" placeholder="SELECT unit units" />
-            <marker date="1464368887046" expanded="true" signature="2396:2435" placeholder="SELECT unit units" />
-            <marker date="1464368887046" expanded="true" signature="2396:2454" placeholder="SELECT unit units" />
-            <marker date="1464368887046" expanded="true" signature="2616:3253" placeholder="..." />
-            <marker date="1464368887046" expanded="true" signature="2664:2718" placeholder="..." />
-            <marker date="1464368887046" expanded="true" signature="2664:2816" placeholder="..." />
-            <marker date="1464368887046" expanded="true" signature="2664:2971" placeholder="..." />
-            <marker date="1464368887046" expanded="true" signature="2664:2995" placeholder="..." />
-            <marker date="1464368887046" expanded="true" signature="2664:3045" placeholder="..." />
-            <marker date="1464368887046" expanded="true" signature="3102:3120" placeholder="..." />
-            <marker date="1464368887046" expanded="true" signature="3121:3170" placeholder="..." />
-            <marker date="1464368887046" expanded="true" signature="3121:3226" placeholder="..." />
-            <marker date="1464368887046" expanded="true" signature="3287:3299" placeholder="..." />
-            <marker date="1464368887046" expanded="true" signature="3413:4050" placeholder="..." />
-            <marker date="1464368887046" expanded="true" signature="3462:3567" placeholder="..." />
-            <marker date="1464368887046" expanded="true" signature="3623:3641" placeholder="..." />
-            <marker date="1464368887046" expanded="true" signature="3642:4023" placeholder="..." />
-            <marker date="1464368887046" expanded="true" signature="4084:4096" placeholder="..." />
-            <marker date="1464368887046" expanded="true" signature="4231:4243" placeholder="..." />
-            <marker date="1464368887046" expanded="true" signature="4803:4829" placeholder="SELECT * FRO... woo_contacts" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -767,20 +663,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="10" column="7" selection-start-line="1" selection-start-column="4" selection-end-line="10" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/contacts.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.5">
+        <state vertical-scroll-proportion="0.0">
           <caret line="81" column="14" selection-start-line="81" selection-start-column="14" selection-end-line="81" selection-end-column="14" />
           <folding>
-            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#form#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
             <marker date="1464432436848" expanded="true" signature="2143:2169" placeholder="SELECT * FRO... woo_contacts" />
           </folding>
         </state>
@@ -788,16 +678,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.461538">
+        <state vertical-scroll-proportion="-12.423077">
           <caret line="19" column="92" selection-start-line="19" selection-start-column="92" selection-end-line="19" selection-end-column="92" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/ajaxContact.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-18.307692">
+          <caret line="28" column="20" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/contacts.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.58592695">
-          <caret line="84" column="59" selection-start-line="84" selection-start-column="59" selection-end-line="84" selection-end-column="59" />
+        <state vertical-scroll-proportion="0.8051421">
+          <caret line="95" column="18" selection-start-line="95" selection-start-column="18" selection-end-line="95" selection-end-column="18" />
           <folding />
         </state>
       </provider>
