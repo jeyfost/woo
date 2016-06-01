@@ -40,10 +40,10 @@ if(filter_var($email, FILTER_VALIDATE_EMAIL)) {
                 echo "failed";
             }
         } else {
-            echo "captcha1";
+            echo "captcha";
         }
     } else {
-        echo "captcha2";
+        echo "captcha";
     }
 } else {
     echo "email";

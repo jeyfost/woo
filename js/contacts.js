@@ -100,7 +100,7 @@ $(window).load(function() {
                                 $('#responseField').css('opacity', '1');
                             }
                             break;
-                        case "captcha1":
+                        case "captcha":
                             if($('#responseField').css('opacity') == '1') {
                                 $('#responseField').css('opacity', '0');
                                 setTimeout(function() {
@@ -111,20 +111,6 @@ $(window).load(function() {
                             } else {
                                 $('#responseField').css('color', '#a22222');
                                 $('#responseField').html('К сожалению, вы не прошли проверку на робота.');
-                                $('#responseField').css('opacity', '1');
-                            }
-                            break;
-                        case "captcha2":
-                            if($('#responseField').css('opacity') == '1') {
-                                $('#responseField').css('opacity', '0');
-                                setTimeout(function() {
-                                    $('#responseField').css('color', '#a22222');
-                                    $('#responseField').html('К сожалению, вы не прошли проверку на робота 2.');
-                                    $('#responseField').css('opacity', '1');
-                                }, 300);
-                            } else {
-                                $('#responseField').css('color', '#a22222');
-                                $('#responseField').html('К сожалению, вы не прошли проверку на робота 2.');
                                 $('#responseField').css('opacity', '1');
                             }
                             break;
