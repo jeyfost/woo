@@ -22,7 +22,7 @@ include("scripts/connect.php");
     <title>Контактная информация | Woo Woo Design</title>
 
     <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
-    <script src='https://www.google.com/recaptcha/api.js'></script>
+    <script src='https://www.google.com/recaptcha/api.js' async defer></script>
     <script type="text/javascript" src="js/menu.js"></script>
     <script type="text/javascript" src="js/footer.js"></script>
     <script type="text/javascript" src="js/contacts.js"></script>
@@ -82,7 +82,7 @@ include("scripts/connect.php");
         <div id="responseField"></div>
         <br />
         <div style="width: 600px; margin: 0 auto;">
-            <div class="g-recaptcha" data-sitekey="6LfNbyETAAAAABCu7b6qfU96UE16I_qi2r1kr8-5" id="captha"></div>
+            <div class="g-recaptcha" data-sitekey="6LfNbyETAAAAABCu7b6qfU96UE16I_qi2r1kr8-5"></div>
             <div id="button">
                 <span class="nameFont">Отправить</span>
                 <div class="overlay" id="buttonOverlay"></div>
