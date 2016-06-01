@@ -84,16 +84,6 @@ $(window).load(function() {
                 type: 'POST',
                 data: {"name": name, "email": email, "theme": theme, "message": message},
                 url: 'scripts/ajaxContact.php',
-                beforeSend: function() {
-                    if($('#responseField').css('opacity') == '1') {
-                        $('#responseField').css('opacity', '0');
-                        setTimeout(function() {
-                            $('#responseField').html("<img src='img/preloader.gif' />");
-                        }, 300);
-                    } else {
-                        $('#responseField').html("<img src='img/preloader.gif' />");
-                    }
-                },
                 success: function(response) {
                     switch(response) {
                         case "email":
@@ -107,6 +97,20 @@ $(window).load(function() {
                             } else {
                                 $('#responseField').css('color', '#a22222');
                                 $('#responseField').html('Введите верный email.');
+                                $('#responseField').css('opacity', '1');
+                            }
+                            break;
+                        case "captcha":
+                            if($('#responseField').css('opacity') == '1') {
+                                $('#responseField').css('opacity', '0');
+                                setTimeout(function() {
+                                    $('#responseField').css('color', '#a22222');
+                                    $('#responseField').html('К сожалению, вы не прошли проверку на робота.');
+                                    $('#responseField').css('opacity', '1');
+                                }, 300);
+                            } else {
+                                $('#responseField').css('color', '#a22222');
+                                $('#responseField').html('К сожалению, вы не прошли проверку на робота.');
                                 $('#responseField').css('opacity', '1');
                             }
                             break;
