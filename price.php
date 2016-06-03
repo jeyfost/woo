@@ -19,6 +19,9 @@
     <link rel="icon" href="img/favicon.ico" type="image/x-icon">
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
 
+    <link href='https://fonts.googleapis.com/css?family=EB+Garamond' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+
     <title>Прайс-лист | Woo Woo Design</title>
 
     <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>

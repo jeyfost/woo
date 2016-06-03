@@ -12,12 +12,10 @@ $email = trim(htmlspecialchars($_POST['email']));
 $theme = trim(htmlspecialchars($_POST['theme']));
 $text = trim(htmlspecialchars($_POST['message']));
 
-if($_POST['g-recaptcha-response']) {
-    $response = $reCaptcha->verifyResponse($_SERVER['REMOTE_ADDR'], $_POST['g-recaptcha-response']);
-}
+$response = $reCaptcha->verifyResponse($_SERVER['REMOTE_ADDR'], $_POST['g-recaptcha-response']);
 
 if(filter_var($email, FILTER_VALIDATE_EMAIL)) {
-    if($response != null and $response->success) {
+    if($response != null && $response->success) {
         $from = $name;
         $subject = "Сообщение с сайта WooWoo | ".$theme;
         $to = "1@1.cc";

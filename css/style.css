@@ -1,4 +1,4 @@
-html, body {margin: 0; padding: 0; background-color: #f8f8f8; color: #000; font-family: 'eb garamond', serif; font-size: 18px;}
+html, body {margin: 0; padding: 0; background-color: #f8f8f8; color: #000; font-family: 'EB Garamond', serif; font-size: 18px;}
 a {border: none; text-decoration: none;}
 img {-moz-user-select: none; -webkit-user-select: none; -ms-user-select: none; user-select: none; pointer-events: none;}
 input {width: 580px; height: 22px; line-height: 22px; padding: 10px; border: none; background-color: #eee; margin-top: 10px; font-style: italic;}
@@ -18,16 +18,17 @@ textarea {width: 580px; height: 22px; padding: 10px; border: none; background-co
 #workDescriptionContainer {letter-spacing: normal; width: 440px; padding: 10px 10px 10px 50px;}
 #button {width: 150px; height: 50px; line-height: 50px; box-shadow: 0 0 5px rgba(0,0,0,0.3); text-align: center; position: absolute; left: 650px; margin-top: -50px; cursor: pointer;}
 #responseField {width: 600px; margin: 0 auto; opacity: 0; transition: .3s; text-align: left;}
+#workDescriptionContainer #button {margin-top: 30px; left: 50px;}
 
-.menuPoint {position: relative; float: right; width: 100px; height: 100%; text-align: center; line-height: 110px; font-family: 'open sans condensed', sans-serif; font-size: 24px; color: #000; transition: .3s;}
-.menuPointActive {position: relative; float: right; width: 100px; height: 100%; text-align: center; line-height: 110px; font-family: 'open sans condensed', sans-serif; font-size: 24px; color: #aaa; transition: .3s; background-color: #f8f8f8;}
+.menuPoint {position: relative; float: right; width: 100px; height: 100%; text-align: center; line-height: 110px; font-family: 'Open Sans Condensed', sans-serif; font-size: 24px; color: #000; transition: .3s;}
+.menuPointActive {position: relative; float: right; width: 100px; height: 100%; text-align: center; line-height: 110px; font-family: 'Open Sans Condensed', sans-serif; font-size: 24px; color: #aaa; transition: .3s; background-color: #f8f8f8;}
 .menuTopLineSection {position: relative; float: right; width: 100px; height: 100%; transition: .3s;}
 .menuTopLineSectionActive {position: relative; float: right; width: 100px; height: 3px; background-color: #a22222; transition: .3s;}
 .centerContainer, #workPhotosContainer {text-align: center;}
 .halfContainer {position: relative; float: left; width: 480px; padding: 10px; text-align: left;}
-.headerFont {font-family: 'open sans condensed', sans-serif; color: #000; font-size: 24px;}
+.headerFont {font-family: 'Open Sans Condensed', sans-serif; color: #000; font-size: 24px;}
 .personContainer {width: 225px; min-height: 300px; background-color: #fff; text-align: center; position: relative; float: left; padding: 5px; box-shadow: 0 0 5px rgba(0,0,0,0.3); cursor: help;}
-.nameFont {font-family: 'open sans condensed', sans-serif; font-size: 20px; color: #a22222;}
+.nameFont {font-family: 'Open Sans Condensed', sans-serif; font-size: 20px; color: #a22222;}
 .overlay {position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-color: #a22222; opacity: 0; transition: .3s;}
 .workOverlay {position: absolute; background-color: #a22222; opacity: 0; transition: .3s;}
 .footerSection {position: relative; float: left; width: 33%; height: 100%;}
