@@ -25,7 +25,6 @@ include("scripts/connect.php");
     <title>Контактная информация | Woo Woo Design</title>
 
     <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
-    <script src='https://www.google.com/recaptcha/api.js' async defer></script>
     <script type="text/javascript" src="js/menu.js"></script>
     <script type="text/javascript" src="js/footer.js"></script>
     <script type="text/javascript" src="js/contacts.js"></script>
@@ -73,7 +72,7 @@ include("scripts/connect.php");
     <br />
     <?php echo $contacts['phone2'] ?>
     <br /><br />
-    <form id="contactFrom">
+    <form id="contactFrom" method="POST">
         <input type="text" id="nameInput" />
         <br />
         <input type="text" id="emailInput" />
@@ -100,7 +99,7 @@ include("scripts/connect.php");
         <div class="footerSection">
             <a href="index.php"><span class="headerFont">WOO WOO DESIGN</span></a>
             <br />
-            <span style="font-size: 16px;">Создание сайта и дизайн: <a href="http://airlab.by">airlab</a></span>
+            <span style="font-size: 16px;">Создание сайта и дизайн: <a href="http://airlab.by/">airlab</a></span>
         </div>
         <div class="footerSection" style="width: 34%;">
             <span class="headerFont">Как нас найти?</span>
@@ -122,6 +121,8 @@ include("scripts/connect.php");
         </div>
     </div>
 </div>
+
+<script src='https://www.google.com/recaptcha/api.js' async defer></script>
 
 </body>
 

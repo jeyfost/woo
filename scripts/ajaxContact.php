@@ -7,10 +7,10 @@ $secret = "6LfNbyETAAAAACo25-rBaST_5KGAcceaZ-M9xfMN";
 $response = null;
 $reCaptcha = new ReCaptcha($secret);
 
-$name = trim(htmlspecialchars($_POST['name']));
-$email = trim(htmlspecialchars($_POST['email']));
-$theme = trim(htmlspecialchars($_POST['theme']));
-$text = trim(htmlspecialchars($_POST['message']));
+$name = $mysqli->real_escape_string($_POST['name']);
+$email = $mysqli->real_escape_string($_POST['email']);
+$theme = $mysqli->real_escape_string($_POST['theme']);
+$text = $mysqli->real_escape_string($_POST['message']);
 
 $response = $reCaptcha->verifyResponse($_SERVER['REMOTE_ADDR'], $_POST['g-recaptcha-response']);
 
