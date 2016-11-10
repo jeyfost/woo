@@ -5,9 +5,20 @@ include("scripts/connect.php");
 if(!empty($_REQUEST['id'])) {
     $workResult = $mysqli->query("SELECT * FROM woo_works WHERE id = '".htmlspecialchars($_REQUEST['id'])."'");
     if($workResult->num_rows == 0) {
-        header("Location: works.php");
+        header("Location: works.php?c=1");
     } else {
         $work = $workResult->fetch_assoc();
+    }
+} else {
+    if(!empty($_REQUEST['c'])) {
+        $categoriesCountResult = $mysqli->query("SELECT COUNT(id) FROM works_categories WHERE id = '".$mysqli->real_escape_string($_REQUEST['c'])."'");
+        $categoriesCount = $categoriesCountResult->fetch_array(MYSQLI_NUM);
+
+        if($categoriesCount[0] == 0) {
+            header("Location: works.php?c=1");
+        }
+    } else {
+        header("Location: works.php?c=1");
     }
 }
 
@@ -57,65 +68,84 @@ if(!empty($_REQUEST['id'])) {
             <div id="menuPoints">
                 <a href="contacts.php"><div class="menuPoint" id="mpContacts" onmouseover="mpHover(1, 'mpContacts')" onmouseout="mpHover(0, 'mpContacts')">Контакты</div></a>
                 <a href="price.php"><div class="menuPoint" id="mpPrice" onmouseover="mpHover(1, 'mpPrice')" onmouseout="mpHover(0, 'mpPrice')">Прайс</div></a>
-                <a href="works.php"><div class="menuPointActive" id="mpWorks">Работы</div></a>
+                <a href="works.php?c=1"><div class="menuPointActive" id="mpWorks">Работы</div></a>
                 <a href="index.php"><div class="menuPoint" id="mpMain" onmouseover="mpHover(1, 'mpMain')" onmouseout="mpHover(0, 'mpMain')">Главная</div></a>
             </div>
         </div>
     </div>
 </div>
 
-<div id="content" style="text-align: center; letter-spacing: 10px;">
-    <?php
+<div id="content" style="text-align: center; width: 100%;">
+    <div id="worksMenu">
+        <?php
+            $c = $mysqli->real_escape_string($_REQUEST['c']);
 
-    if(empty($_REQUEST['id'])) {
-        $workResult = $mysqli->query("SELECT * FROM woo_works ORDER BY id DESC");
-        $count = 0;
-
-        while($work = $workResult->fetch_assoc()) {
-            echo "
-                <a href='works.php?id=".$work['id']."' onmouseover='workOverlay(\"1\", \"overlay".$work['id']."\", \"workPreview".$work['id']."\")' onmouseout='workOverlay(\"0\", \"overlay".$work['id']."\", \"workPreview".$work['id']."\")'>
-                    <div class='workPreview' id='workPreview".$work['id']."'>
-                        <img src='img/works/preview/".$work['preview']."' />
-                        <br /><br />
-                        <span class='nameFont'>".$work['name']."</span>
-                        <div class='workOverlay' id='overlay".$work['id']."'></div>
+            $categoryResult = $mysqli->query("SELECT * FROM works_categories");
+            while($category = $categoryResult->fetch_assoc()) {
+                echo "
+                  <a href='works.php?c=".$category['id']."'>
+                    <div class='workCategory' id='workCategory".$category['id']."'>
+                        <span class='categoriesText'"; if($c == $category['id']) {echo " style='color: #a22222;'";} echo ">".$category['category_name']."</span>
                     </div>
-                </a>
+                  </a>
+                  <div style='width:100%; height: 10px;'></div>
+                ";
+            }
+        ?>
+    </div>
+    <div id="worksContent">
+        <?php
+
+        if(empty($_REQUEST['id'])) {
+            $workResult = $mysqli->query("SELECT * FROM woo_works WHERE category = '".$c."' ORDER BY id DESC");
+            $count = 0;
+
+            while($work = $workResult->fetch_assoc()) {
+                echo "
+                    <a href='works.php?id=".$work['id']."' onmouseover='workOverlay(\"1\", \"overlay".$work['id']."\", \"workPreview".$work['id']."\")' onmouseout='workOverlay(\"0\", \"overlay".$work['id']."\", \"workPreview".$work['id']."\")'>
+                        <div class='workPreview' id='workPreview".$work['id']."'>
+                            <img src='img/works/preview/".$work['preview']."' style='width: 300px;' />
+                            <br /><br />
+                            <span class='nameFont'>".$work['name']."</span>
+                            <div class='workOverlay' id='overlay".$work['id']."'></div>
+                        </div>
+                    </a>
+                ";
+
+                $count++;
+            }
+        } else {
+            $photoResult = $mysqli->query("SELECT * FROM woo_works_photos WHERE work_id = '".htmlspecialchars($_REQUEST['id'])."'");
+
+            echo "
+                <div class='halfContainer' id='workPhotosContainer'>
             ";
 
-            $count++;
-        }
-    } else {
-        $photoResult = $mysqli->query("SELECT * FROM woo_works_photos WHERE work_id = '".htmlspecialchars($_REQUEST['id'])."'");
+            while($photo = $photoResult->fetch_assoc()) {
+                echo "<a href='img/works/big/".$photo['big']."' rel='shadowbox[set]'><div><img src='img/works/big/".$photo['big']."' class='workPhoto' /></div></a><br />";
+            }
 
-        echo "
-            <div class='halfContainer' id='workPhotosContainer'>
-        ";
-
-        while($photo = $photoResult->fetch_assoc()) {
-            echo "<a href='img/works/big/".$photo['big']."' rel='shadowbox[set]'><div><img src='img/works/big/".$photo['big']."' class='workPhoto' /></div></a><br />";
-        }
-
-        echo "
-            </div>
-            <div class='halfContainer' id='workDescriptionContainer'>
-                <span class='headerFont'>".$work['name']."</span>
-                <br /><br />
-                <span class='categoryFont'>техника: </span>".$work['technics']."
-                <br /><br />
-                ".$work['description']."
-                <br /><br />
-                <div id='button'>
-                    <a href='works.php'>
-                        <span class='nameFont'>Назад</span>
-                        <div class='overlay' id='buttonOverlay'></div>
-                    </a>
+            echo "
                 </div>
-            </div>
-        ";
-    }
+                <div class='halfContainer' id='workDescriptionContainer'>
+                    <span class='headerFont'>".$work['name']."</span>
+                    <br /><br />
+                    <span class='categoryFont'>техника: </span>".$work['technics']."
+                    <br /><br />
+                    ".$work['description']."
+                    <br /><br />
+                    <div id='button'>
+                        <a href='works.php'>
+                            <span class='nameFont'>Назад</span>
+                            <div class='overlay' id='buttonOverlay'></div>
+                        </a>
+                    </div>
+                </div>
+            ";
+        }
 
-    ?>
+        ?>
+    </div>
     <div style="clear: both;"></div>
 </div>
 

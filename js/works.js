@@ -1,4 +1,6 @@
 $(window).load(function() {
+    $('#worksContent').width(parseInt($(window).width() - 250));
+
     $('#button').mouseover(function() {
         $('#buttonOverlay').width($('#button').width());
         $('#buttonOverlay').height($('#button').height());
@@ -23,3 +25,7 @@ function workOverlay(action, id, work) {
         document.getElementById(id).style.opacity = '0';
     }
 }
+
+$(window).resize(function() {
+    $('#worksContent').width(parseInt($(window).width() - 250));
+});

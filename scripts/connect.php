@@ -10,3 +10,4 @@
 	
 	$mysqli->query("SET NAMES 'UTF-8'");
 	$mysqli->query("SET CHARACTER SET 'UTF-8'");
+	$mysqli->query("SET SESSION collation_connection = 'utf8_general_ci';");
