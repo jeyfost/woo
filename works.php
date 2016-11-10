@@ -3,7 +3,7 @@
 include("scripts/connect.php");
 
 if(!empty($_REQUEST['id'])) {
-    $workResult = $mysqli->query("SELECT * FROM woo_works WHERE id = '".htmlspecialchars($_REQUEST['id'])."'");
+    $workResult = $mysqli->query("SELECT * FROM woo_works WHERE id = '".$mysqli->real_escape_string($_REQUEST['id'])."'");
     if($workResult->num_rows == 0) {
         header("Location: works.php?c=1");
     } else {
@@ -80,12 +80,17 @@ if(!empty($_REQUEST['id'])) {
         <?php
             $c = $mysqli->real_escape_string($_REQUEST['c']);
 
+            if(!empty($_REQUEST['id'])) {
+                $workCategoryResult = $mysqli->query("SELECT category FROM woo_works WHERE id = '".$mysqli->real_escape_string($_REQUEST['id'])."'");
+				$workCategory = $workCategoryResult->fetch_array(MYSQLI_NUM);
+            }
+
             $categoryResult = $mysqli->query("SELECT * FROM works_categories");
             while($category = $categoryResult->fetch_assoc()) {
                 echo "
                   <a href='works.php?c=".$category['id']."'>
                     <div class='workCategory' id='workCategory".$category['id']."'>
-                        <span class='categoriesText'"; if($c == $category['id']) {echo " style='color: #a22222;'";} echo ">".$category['category_name']."</span>
+                        <span class='categoriesText'"; if((empty($_REQUEST['id']) and $c == $category['id']) or (!empty($_REQUEST['id']) and $category['id'] == $workCategory[0])) {echo " style='color: #a22222;'";} echo ">".$category['category_name']."</span>
                     </div>
                   </a>
                   <div style='width:100%; height: 10px;'></div>

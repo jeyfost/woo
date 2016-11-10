@@ -2,20 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f9898053-d2e7-4958-bf35-ef51ecbfb151" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/works/preview/MQzOItXYQg1453130167brian-rubenacker-dachshund-wieners.jpg" afterPath="$PROJECT_DIR$/img/works/preview/MQzOItXYQg1453130167brian-rubenacker-dachshund-wieners.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/works/preview/work1.jpg" afterPath="$PROJECT_DIR$/img/works/preview/work1.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/works/preview/work2.jpg" afterPath="$PROJECT_DIR$/img/works/preview/work2.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/works/preview/work3.jpg" afterPath="$PROJECT_DIR$/img/works/preview/work3.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/works/preview/work4.jpg" afterPath="$PROJECT_DIR$/img/works/preview/work4.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/works/preview/work5.jpg" afterPath="$PROJECT_DIR$/img/works/preview/work5.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/works/preview/work6.jpg" afterPath="$PROJECT_DIR$/img/works/preview/work6.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/contacts.php" afterPath="$PROJECT_DIR$/contacts.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/works.js" afterPath="$PROJECT_DIR$/js/works.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/price.php" afterPath="$PROJECT_DIR$/price.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/connect.php" afterPath="$PROJECT_DIR$/scripts/connect.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/works.php" afterPath="$PROJECT_DIR$/works.php" />
     </list>
     <ignored path="woo2.iws" />
@@ -48,30 +35,33 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="works.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="works.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/works.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.811321">
-              <caret line="99" column="92" selection-start-line="99" selection-start-column="66" selection-end-line="99" selection-end-column="92" />
+            <state vertical-scroll-proportion="0.14305751">
+              <caret line="80" column="61" selection-start-line="80" selection-start-column="61" selection-end-line="80" selection-end-column="61" />
               <folding>
                 <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <marker date="1478786022440" expanded="true" signature="104:178" placeholder="SELECT * FRO... woo_works" />
-                <marker date="1478786022440" expanded="true" signature="416:515" placeholder="SELECT COUNT... works_categories" />
-                <marker date="1478786022440" expanded="true" signature="783:811" placeholder="..." />
-                <marker date="1478786022440" expanded="true" signature="791:811" placeholder="..." />
-                <marker date="1478786022440" expanded="true" signature="3122:3152" placeholder="SELECT * FRO... works_categories" />
-                <marker date="1478786022440" expanded="true" signature="3744:3787" placeholder="..." />
-                <marker date="1478786022440" expanded="true" signature="3840:3882" placeholder="SELECT * FRO... woo_works" />
-                <marker date="1478786022440" expanded="true" signature="3840:3906" placeholder="SELECT * FRO... woo_works" />
-                <marker date="1478786022440" expanded="true" signature="4825:4911" placeholder="SELECT * FRO... woo_works_photos" />
-                <marker date="1478786022440" expanded="true" signature="5002:5015" placeholder="..." />
-                <marker date="1478786022440" expanded="true" signature="5379:5979" placeholder="..." />
-                <marker date="1478786022440" expanded="true" signature="5716:5956" placeholder="..." />
-                <marker date="1478786022440" expanded="true" signature="5761:5929" placeholder="..." />
-                <marker date="1478786022440" expanded="true" signature="6592:6618" placeholder="SELECT * FRO... woo_contacts" />
+                <marker date="1478787757186" expanded="true" signature="104:140" placeholder="SELECT * FRO... woo_works" />
+                <marker date="1478787757186" expanded="true" signature="104:189" placeholder="SELECT * FRO... woo_works" />
+                <marker date="1478787757186" expanded="true" signature="427:526" placeholder="SELECT COUNT... works_categories" />
+                <marker date="1478787757186" expanded="true" signature="794:822" placeholder="..." />
+                <marker date="1478787757186" expanded="true" signature="802:822" placeholder="..." />
+                <marker date="1478787757186" expanded="true" signature="3183:3226" placeholder="SELECT categ... woo_works" />
+                <marker date="1478787757186" expanded="true" signature="3183:3275" placeholder="SELECT categ... woo_works" />
+                <marker date="1478787757186" expanded="true" signature="3406:3436" placeholder="SELECT * FRO... works_categories" />
+                <marker date="1478787757186" expanded="true" signature="4126:4169" placeholder="..." />
+                <marker date="1478787757186" expanded="true" signature="4222:4264" placeholder="SELECT * FRO... woo_works" />
+                <marker date="1478787757186" expanded="true" signature="4222:4288" placeholder="SELECT * FRO... woo_works" />
+                <marker date="1478787757186" expanded="true" signature="5207:5293" placeholder="SELECT * FRO... woo_works_photos" />
+                <marker date="1478787757186" expanded="true" signature="5384:5397" placeholder="..." />
+                <marker date="1478787757186" expanded="true" signature="5761:6361" placeholder="..." />
+                <marker date="1478787757186" expanded="true" signature="6098:6338" placeholder="..." />
+                <marker date="1478787757186" expanded="true" signature="6143:6311" placeholder="..." />
+                <marker date="1478787757186" expanded="true" signature="6974:7000" placeholder="SELECT * FRO... woo_contacts" />
               </folding>
             </state>
           </provider>
@@ -87,11 +77,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="works.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="works.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/works.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6671177">
-              <caret line="29" column="64" selection-start-line="29" selection-start-column="64" selection-end-line="29" selection-end-column="64" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="18" column="45" selection-start-line="18" selection-start-column="45" selection-end-line="18" selection-end-column="45" />
               <folding />
             </state>
           </provider>
@@ -134,8 +124,8 @@
         <option value="$PROJECT_DIR$/price.php" />
         <option value="$PROJECT_DIR$/contacts.php" />
         <option value="$PROJECT_DIR$/css/style.css" />
-        <option value="$PROJECT_DIR$/works.php" />
         <option value="$PROJECT_DIR$/js/works.js" />
+        <option value="$PROJECT_DIR$/works.php" />
       </list>
     </option>
   </component>
@@ -437,7 +427,13 @@
       <option name="project" value="LOCAL" />
       <updated>1478505367952</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Переделан раздел работ">
+      <created>1478786237990</created>
+      <option name="number" value="00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1478786237990</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -446,6 +442,7 @@
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.249375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32985657" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32985657" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -453,7 +450,6 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32985657" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -492,7 +488,8 @@
     <MESSAGE value="Добавлена reCaptha в раздел обратной связи. UPD 2" />
     <MESSAGE value="Реализована кроссплатформенность шрифтов" />
     <MESSAGE value="Исправлена back-end часть обратной связи" />
-    <option name="LAST_COMMIT_MESSAGE" value="Исправлена back-end часть обратной связи" />
+    <MESSAGE value="Переделан раздел работ" />
+    <option name="LAST_COMMIT_MESSAGE" value="Переделан раздел работ" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -886,38 +883,41 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/js/works.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="18" column="45" selection-start-line="18" selection-start-column="45" selection-end-line="18" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/works.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.811321">
-          <caret line="99" column="92" selection-start-line="99" selection-start-column="66" selection-end-line="99" selection-end-column="92" />
+        <state vertical-scroll-proportion="0.14305751">
+          <caret line="80" column="61" selection-start-line="80" selection-start-column="61" selection-end-line="80" selection-end-column="61" />
           <folding>
             <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1478786022440" expanded="true" signature="104:178" placeholder="SELECT * FRO... woo_works" />
-            <marker date="1478786022440" expanded="true" signature="416:515" placeholder="SELECT COUNT... works_categories" />
-            <marker date="1478786022440" expanded="true" signature="783:811" placeholder="..." />
-            <marker date="1478786022440" expanded="true" signature="791:811" placeholder="..." />
-            <marker date="1478786022440" expanded="true" signature="3122:3152" placeholder="SELECT * FRO... works_categories" />
-            <marker date="1478786022440" expanded="true" signature="3744:3787" placeholder="..." />
-            <marker date="1478786022440" expanded="true" signature="3840:3882" placeholder="SELECT * FRO... woo_works" />
-            <marker date="1478786022440" expanded="true" signature="3840:3906" placeholder="SELECT * FRO... woo_works" />
-            <marker date="1478786022440" expanded="true" signature="4825:4911" placeholder="SELECT * FRO... woo_works_photos" />
-            <marker date="1478786022440" expanded="true" signature="5002:5015" placeholder="..." />
-            <marker date="1478786022440" expanded="true" signature="5379:5979" placeholder="..." />
-            <marker date="1478786022440" expanded="true" signature="5716:5956" placeholder="..." />
-            <marker date="1478786022440" expanded="true" signature="5761:5929" placeholder="..." />
-            <marker date="1478786022440" expanded="true" signature="6592:6618" placeholder="SELECT * FRO... woo_contacts" />
+            <marker date="1478787757186" expanded="true" signature="104:140" placeholder="SELECT * FRO... woo_works" />
+            <marker date="1478787757186" expanded="true" signature="104:189" placeholder="SELECT * FRO... woo_works" />
+            <marker date="1478787757186" expanded="true" signature="427:526" placeholder="SELECT COUNT... works_categories" />
+            <marker date="1478787757186" expanded="true" signature="794:822" placeholder="..." />
+            <marker date="1478787757186" expanded="true" signature="802:822" placeholder="..." />
+            <marker date="1478787757186" expanded="true" signature="3183:3226" placeholder="SELECT categ... woo_works" />
+            <marker date="1478787757186" expanded="true" signature="3183:3275" placeholder="SELECT categ... woo_works" />
+            <marker date="1478787757186" expanded="true" signature="3406:3436" placeholder="SELECT * FRO... works_categories" />
+            <marker date="1478787757186" expanded="true" signature="4126:4169" placeholder="..." />
+            <marker date="1478787757186" expanded="true" signature="4222:4264" placeholder="SELECT * FRO... woo_works" />
+            <marker date="1478787757186" expanded="true" signature="4222:4288" placeholder="SELECT * FRO... woo_works" />
+            <marker date="1478787757186" expanded="true" signature="5207:5293" placeholder="SELECT * FRO... woo_works_photos" />
+            <marker date="1478787757186" expanded="true" signature="5384:5397" placeholder="..." />
+            <marker date="1478787757186" expanded="true" signature="5761:6361" placeholder="..." />
+            <marker date="1478787757186" expanded="true" signature="6098:6338" placeholder="..." />
+            <marker date="1478787757186" expanded="true" signature="6143:6311" placeholder="..." />
+            <marker date="1478787757186" expanded="true" signature="6974:7000" placeholder="SELECT * FRO... woo_contacts" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/works.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6671177">
-          <caret line="29" column="64" selection-start-line="29" selection-start-column="64" selection-end-line="29" selection-end-column="64" />
-          <folding />
         </state>
       </provider>
     </entry>
