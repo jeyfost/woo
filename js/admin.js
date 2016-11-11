@@ -51,3 +51,11 @@ $(window).load(function() {
 		}
 	});
 });
+
+function umcBG(action, id) {
+	if(action == 1) {
+		document.getElementById(id).style.backgroundColor = "#595959";
+	} else {
+		document.getElementById(id).style.backgroundColor = "#2e2e2e";
+	}
+}

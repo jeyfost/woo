@@ -80,14 +80,14 @@ include("scripts/connect.php");
                     <img src='img/team/".$photos['e_dark']."' />
                     <br /><br />
                     <span class='nameFont'>Евгения</span>
-                    <div class='overlay' id='eOverlay'></div>
+                    <div class='workOverlay' id='eOverlay'></div>
                 </div>
                 <div style='position: relative; float: left; width: 10px; height: 100%; min-height: 300px;'></div>
                 <div class='personContainer' id='nPerson'>
                     <img src='img/team/".$photos['n_dark']."' />
                     <br /><br />
                     <span class='nameFont'>Наталия</span>
-                    <div class='overlay' id='nOverlay'></div>
+                    <div class='workOverlay' id='nOverlay'></div>
                 </div>
             ";
 
