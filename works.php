@@ -120,7 +120,7 @@ if(!empty($_REQUEST['id'])) {
                 $count++;
             }
         } else {
-            $photoResult = $mysqli->query("SELECT * FROM woo_works_photos WHERE work_id = '".htmlspecialchars($_REQUEST['id'])."'");
+            $photoResult = $mysqli->query("SELECT * FROM woo_works_photos WHERE work_id = '".$mysqli->real_escape_string($_REQUEST['id'])."'");
 
             echo "
                 <div class='halfContainer' id='workPhotosContainer'>
@@ -140,7 +140,7 @@ if(!empty($_REQUEST['id'])) {
                     ".$work['description']."
                     <br /><br />
                     <div id='button'>
-                        <a href='works.php'>
+                        <a href='works.php?c=".$work['category']."'>
                             <span class='nameFont'>Назад</span>
                             <div class='overlay' id='buttonOverlay'></div>
                         </a>
