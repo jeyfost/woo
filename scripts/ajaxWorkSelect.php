@@ -9,7 +9,7 @@ $maxPriorityResult = $mysqli->query("SELECT MAX(priority) FROM woo_works WHERE c
 $maxPriority = $maxPriorityResult->fetch_array(MYSQLI_NUM);
 
 echo "
-	<br /><br />
+	<br />
 	<label for='editWorkPriority'>Позиция в разделе:</label>
 	<br />
 	<select id='editWorkPriority' name='editWorkPriority'>

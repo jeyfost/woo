@@ -54,12 +54,12 @@ $(window).load(function() {
 								$('#admResponseField').css('opacity', '0');
 								setTimeout(function() {
 									$('#admResponseField').css('color', '#a22222');
-									$('#admResponseField').html('Проиошла ошибка. Попробуйте повторить попытку.<br /><br />');
+									$('#admResponseField').html('Произошла ошибка. Попробуйте повторить попытку.<br /><br />');
 									$('#admResponseField').css('opacity', '1');
 								}, 300);
 							} else {
 								$('#admResponseField').css('color', '#a22222');
-								$('#admResponseField').html('Проиошла ошибка. Попробуйте повторить попытку.<br /><br />');
+								$('#admResponseField').html('Произошла ошибка. Попробуйте повторить попытку.<br /><br />');
 								$('#admResponseField').css('opacity', '1');
 							}
 							break;

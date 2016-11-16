@@ -8,8 +8,8 @@ $photoResult = $mysqli->query("SELECT * FROM woo_works_photos WHERE id = '".$id.
 $photo = $photoResult->fetch_assoc();
 
 if($mysqli->query("DELETE FROM woo_works_photos WHERE id = '".$id."'")) {
-	unlink("../../img/works/small/".$photo['small']);
-	unlink("../../img/works/big/".$photo['big']);
+	unlink("../img/works/small/".$photo['small']);
+	unlink("../img/works/big/".$photo['big']);
 
 	echo "a";
 } else {

@@ -1,7 +1,3 @@
-$(window).load(function() {
-
-});
-
 function textAreaHeight(textarea) {
 	if (!textarea._tester) {
 		var ta = textarea.cloneNode();
@@ -111,6 +107,8 @@ function deletePhoto(id) {
 						document.getElementById(deleteBlockID).style.display = 'none';
 						document.getElementById(blockID).style.display = 'none';
 					}, 300);
+
+					alert("Фотография удалена.");
 					break;
 				case "b":
 					$('#admPhotoDelete' + id).css('background-color', 'red');

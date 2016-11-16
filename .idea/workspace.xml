@@ -2,45 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f9898053-d2e7-4958-bf35-ef51ecbfb151" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/pages/account.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/pages/addWork.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/pages/editWork.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/pages/exit.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/pages/text.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/account.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/admEditWork.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/admMenu.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/admText.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/admWork.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scripts/addWork.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scripts/ajaxAboutText.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scripts/ajaxAccount.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scripts/ajaxBuildPriorityList.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scripts/ajaxCategorySelect.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scripts/ajaxDeletePhoto.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scripts/ajaxEText.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scripts/ajaxNText.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scripts/ajaxPriceCategory.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scripts/ajaxPriceCategoryEdit.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scripts/ajaxPriceCategorySelect.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scripts/ajaxPricePointEdit.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scripts/ajaxPricePointSelect.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scripts/ajaxSlogan.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scripts/ajaxWorkSelect.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scripts/editWork.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scripts/simpleImage.php" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/works/big/qfJVyltwWB1453130167brian-rubenacker-dachshund-wieners.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/works/preview/MQzOItXYQg1453130167brian-rubenacker-dachshund-wieners.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/works/small/1DKmyWoFdZ1453130167tournee-du-chat-noir-c-1896.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/works/small/CNrcUYbwI71453130167brian-rubenacker-dachshund-wieners.jpg" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/works/big/1.jpg" afterPath="$PROJECT_DIR$/img/works/big/1.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/works/small/1.jpg" afterPath="$PROJECT_DIR$/img/works/small/1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/pages/deleteWork.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/admDeleteWork.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scripts/ajaxDeleteSelectCategory.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scripts/deleteWork.php" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/works/big/Bmobk8bTtb1453130167ty-wilson-the-charleston.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/works/big/StnxtlbPqn1453130167trinidad-and-tobago.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/works/big/bQUEIFL4Mj1453130167tournee-du-chat-noir-c-1896.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/works/small/blb8u2GuVu1453130167trinidad-and-tobago.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/works/small/fMGZ4g9Diq1453130167ty-wilson-the-charleston.jpg" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/admin.php" afterPath="$PROJECT_DIR$/admin/admin.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/admin.js" afterPath="$PROJECT_DIR$/js/admin.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/contacts.js" afterPath="$PROJECT_DIR$/js/contacts.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/works.php" afterPath="$PROJECT_DIR$/works.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/account.js" afterPath="$PROJECT_DIR$/js/account.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/admEditWork.js" afterPath="$PROJECT_DIR$/js/admEditWork.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/admText.js" afterPath="$PROJECT_DIR$/js/admText.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/ajaxCategorySelect.php" afterPath="$PROJECT_DIR$/scripts/ajaxCategorySelect.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/ajaxDeletePhoto.php" afterPath="$PROJECT_DIR$/scripts/ajaxDeletePhoto.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/ajaxWorkSelect.php" afterPath="$PROJECT_DIR$/scripts/ajaxWorkSelect.php" />
     </list>
     <ignored path="woo2.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -65,30 +42,119 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
+            <state vertical-scroll-proportion="-16.615385">
               <caret line="73" column="106" selection-start-line="73" selection-start-column="106" selection-end-line="73" selection-end-column="106" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="editWork.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin/pages/editWork.php">
+      <file leaf-file-name="deleteWork.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/admin/pages/deleteWork.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-9.115385">
-              <caret line="132" column="42" selection-start-line="132" selection-start-column="42" selection-end-line="132" selection-end-column="42" />
+            <state vertical-scroll-proportion="32.73077">
+              <caret line="32" column="76" selection-start-line="32" selection-start-column="76" selection-end-line="32" selection-end-column="76" />
               <folding>
-                <marker date="1479217195526" expanded="true" signature="5239:5269" placeholder="SELECT * FRO... works_categories" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#a#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#a#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#0;n#a#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#a#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#a#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#0;n#a#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#a#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#a#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#0;n#a#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#a#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#a#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#a#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#0;n#a#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#a#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#a#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#0;n#a#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#a#5;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#a#5;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#0;n#a#5;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#a#6;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#a#6;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#0;n#a#6;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <marker date="1479320868038" expanded="true" signature="4462:4492" placeholder="SELECT * FRO... works_categories" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="editWork.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ajaxDeleteSelectCategory.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scripts/ajaxDeleteSelectCategory.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-9.153846">
+              <caret line="14" column="43" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="43" />
+              <folding>
+                <marker date="1479321191448" expanded="true" signature="62:102" placeholder="SELECT * FRO... woo_works" />
+                <marker date="1479321191448" expanded="true" signature="62:104" placeholder="SELECT * FRO... woo_works" />
+                <marker date="1479321191448" expanded="true" signature="62:156" placeholder="SELECT * FRO... woo_works" />
+                <marker date="1479321191448" expanded="true" signature="62:158" placeholder="SELECT * FRO... woo_works" />
+                <marker date="1479321191448" expanded="true" signature="319:378" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="admDeleteWork.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/admDeleteWork.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="48" column="37" selection-start-line="48" selection-start-column="37" selection-end-line="48" selection-end-column="37" />
+              <folding>
+                <marker date="1479323102377" expanded="true" signature="426:509" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="deleteWork.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/scripts/deleteWork.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.5245442">
+              <caret line="22" column="20" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
+              <folding>
+                <marker date="1479323212380" expanded="true" signature="112:148" placeholder="SELECT * FRO... woo_works" />
+                <marker date="1479323212380" expanded="true" signature="112:156" placeholder="SELECT * FRO... woo_works" />
+                <marker date="1479323212380" expanded="true" signature="246:284" placeholder="DELETE FROM " />
+                <marker date="1479323212380" expanded="true" signature="378:426" placeholder="SELECT * FRO... woo_works_photos" />
+                <marker date="1479323212380" expanded="true" signature="378:434" placeholder="SELECT * FRO... woo_works_photos" />
+                <marker date="1479323212380" expanded="true" signature="378:449" placeholder="SELECT * FRO... woo_works_photos" />
+                <marker date="1479323212380" expanded="true" signature="521:562" placeholder="DELETE FROM " />
+                <marker date="1479323212380" expanded="true" signature="521:583" placeholder="DELETE FROM " />
+                <marker date="1479323212380" expanded="true" signature="755:803" placeholder="SELECT * FRO... woo_works_photos" />
+                <marker date="1479323212380" expanded="true" signature="755:810" placeholder="SELECT * FRO... woo_works_photos" />
+                <marker date="1479323212380" expanded="true" signature="755:811" placeholder="SELECT * FRO... woo_works_photos" />
+                <marker date="1479323212380" expanded="true" signature="755:812" placeholder="SELECT * FRO... woo_works_photos" />
+                <marker date="1479323212380" expanded="true" signature="941:999" placeholder="DELETE FROM " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="account.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/account.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="61" column="66" selection-start-line="61" selection-start-column="66" selection-end-line="61" selection-end-column="66" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="editWork.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scripts/editWork.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.1669004">
-              <caret line="102" column="13" selection-start-line="102" selection-start-column="13" selection-end-line="102" selection-end-column="13" />
+            <state vertical-scroll-proportion="-16.961538">
+              <caret line="86" column="174" selection-start-line="86" selection-start-column="174" selection-end-line="86" selection-end-column="174" />
               <folding>
                 <marker date="1479291907842" expanded="true" signature="534:570" placeholder="SELECT * FRO... woo_works" />
                 <marker date="1479291907842" expanded="true" signature="534:582" placeholder="SELECT * FRO... woo_works" />
@@ -143,60 +209,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="addWork.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scripts/addWork.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-13.730769">
-              <caret line="69" column="0" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
-              <folding>
-                <marker date="1479291960681" expanded="true" signature="556:610" placeholder="SELECT MAX(p... woo_works" />
-                <marker date="1479291960681" expanded="true" signature="556:624" placeholder="SELECT MAX(p... woo_works" />
-                <marker date="1479291960681" expanded="true" signature="1197:1239" placeholder="SELECT * FRO... woo_works" />
-                <marker date="1479291960681" expanded="true" signature="1197:1253" placeholder="SELECT * FRO... woo_works" />
-                <marker date="1479291960681" expanded="true" signature="1363:1396" placeholder="UPDATE woo_w... " />
-                <marker date="1479291960681" expanded="true" signature="1363:1424" placeholder="UPDATE woo_w... " />
-                <marker date="1479291960681" expanded="true" signature="1363:1437" placeholder="UPDATE woo_w... " />
-                <marker date="1479291960681" expanded="true" signature="1363:1453" placeholder="UPDATE woo_w... " />
-                <marker date="1479291960681" expanded="true" signature="1490:1580" placeholder="INSERT INTO woo_works... " />
-                <marker date="1479291960681" expanded="true" signature="1490:1593" placeholder="INSERT INTO woo_works... " />
-                <marker date="1479291960681" expanded="true" signature="1490:1613" placeholder="INSERT INTO woo_works... " />
-                <marker date="1479291960681" expanded="true" signature="1490:1631" placeholder="INSERT INTO woo_works... " />
-                <marker date="1479291960681" expanded="true" signature="1490:1651" placeholder="INSERT INTO woo_works... " />
-                <marker date="1479291960681" expanded="true" signature="1490:1683" placeholder="INSERT INTO woo_works... " />
-                <marker date="1479291960681" expanded="true" signature="2070:2099" placeholder="SELECT MAX(i... woo_works" />
-                <marker date="1479291960681" expanded="true" signature="2177:2243" placeholder="INSERT INTO woo_works_photos... " />
-                <marker date="1479291960681" expanded="true" signature="2177:2263" placeholder="INSERT INTO woo_works_photos... " />
-                <marker date="1479291960681" expanded="true" signature="2177:2283" placeholder="INSERT INTO woo_works_photos... " />
-                <marker date="1479291960681" expanded="true" signature="2177:2304" placeholder="INSERT INTO woo_works_photos... " />
-                <marker date="1479291960681" expanded="true" signature="3243:3309" placeholder="INSERT INTO woo_works_photos... " />
-                <marker date="1479291960681" expanded="true" signature="3243:3327" placeholder="INSERT INTO woo_works_photos... " />
-                <marker date="1479291960681" expanded="true" signature="3243:3345" placeholder="INSERT INTO woo_works_photos... " />
-                <marker date="1479291960681" expanded="true" signature="3243:3366" placeholder="INSERT INTO woo_works_photos... " />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="admEditWork.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/admEditWork.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="77" column="17" selection-start-line="77" selection-start-column="17" selection-end-line="77" selection-end-column="17" />
+              <caret line="55" column="15" selection-start-line="55" selection-start-column="15" selection-end-line="55" selection-end-column="15" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ajaxCategorySelect.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scripts/ajaxCategorySelect.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.8461537">
-              <caret line="12" column="29" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
-              <folding>
-                <marker date="1479201368072" expanded="true" signature="62:104" placeholder="SELECT * FRO... woo_works" />
-                <marker date="1479201368072" expanded="true" signature="62:156" placeholder="SELECT * FRO... woo_works" />
-                <marker date="1479201368072" expanded="true" signature="62:170" placeholder="SELECT * FRO... woo_works" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -204,26 +222,16 @@
       <file leaf-file-name="ajaxDeletePhoto.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scripts/ajaxDeletePhoto.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-9.807693">
-              <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+            <state vertical-scroll-proportion="-9.153846">
+              <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
               <folding>
-                <marker date="1479204169669" expanded="true" signature="113:154" placeholder="SELECT * FRO... woo_works_photos" />
-                <marker date="1479204169669" expanded="true" signature="113:156" placeholder="SELECT * FRO... woo_works_photos" />
-                <marker date="1479204169669" expanded="true" signature="113:164" placeholder="SELECT * FRO... woo_works_photos" />
-                <marker date="1479204169669" expanded="true" signature="113:166" placeholder="SELECT * FRO... woo_works_photos" />
-                <marker date="1479204169669" expanded="true" signature="226:267" placeholder="DELETE FROM " />
-                <marker date="1479204169669" expanded="true" signature="226:275" placeholder="DELETE FROM " />
+                <marker date="1479300059794" expanded="true" signature="113:154" placeholder="SELECT * FRO... woo_works_photos" />
+                <marker date="1479300059794" expanded="true" signature="113:156" placeholder="SELECT * FRO... woo_works_photos" />
+                <marker date="1479300059794" expanded="true" signature="113:164" placeholder="SELECT * FRO... woo_works_photos" />
+                <marker date="1479300059794" expanded="true" signature="113:166" placeholder="SELECT * FRO... woo_works_photos" />
+                <marker date="1479300059794" expanded="true" signature="226:267" placeholder="DELETE FROM " />
+                <marker date="1479300059794" expanded="true" signature="226:275" placeholder="DELETE FROM " />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="admWork.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/admWork.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="54" column="34" selection-start-line="54" selection-start-column="34" selection-end-line="54" selection-end-column="34" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -249,10 +257,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/scripts/config.php" />
-        <option value="$PROJECT_DIR$/style/style.css" />
-        <option value="$PROJECT_DIR$/js/menu.js" />
-        <option value="$PROJECT_DIR$/js/footer.js" />
         <option value="$PROJECT_DIR$/scripts/ajaxEData.php" />
         <option value="$PROJECT_DIR$/scripts/ajaxNData.php" />
         <option value="$PROJECT_DIR$/scripts/recaptchalib.php" />
@@ -284,22 +288,26 @@
         <option value="$PROJECT_DIR$/js/admMenu.js" />
         <option value="$PROJECT_DIR$/scripts/ajaxPricePointEdit.php" />
         <option value="$PROJECT_DIR$/admin/pages/text.php" />
-        <option value="$PROJECT_DIR$/js/account.js" />
-        <option value="$PROJECT_DIR$/js/admText.js" />
         <option value="$PROJECT_DIR$/js/admin.js" />
         <option value="$PROJECT_DIR$/scripts/simpleImage.php" />
         <option value="$PROJECT_DIR$/scripts/ajaxBuildPriorityList.php" />
         <option value="$PROJECT_DIR$/works.php" />
         <option value="$PROJECT_DIR$/admin/pages/addWork.php" />
-        <option value="$PROJECT_DIR$/scripts/ajaxCategorySelect.php" />
-        <option value="$PROJECT_DIR$/scripts/ajaxDeletePhoto.php" />
         <option value="$PROJECT_DIR$/css/style.css" />
-        <option value="$PROJECT_DIR$/js/admEditWork.js" />
         <option value="$PROJECT_DIR$/js/admWork.js" />
         <option value="$PROJECT_DIR$/admin/pages/editWork.php" />
-        <option value="$PROJECT_DIR$/scripts/ajaxWorkSelect.php" />
         <option value="$PROJECT_DIR$/scripts/editWork.php" />
         <option value="$PROJECT_DIR$/scripts/addWork.php" />
+        <option value="$PROJECT_DIR$/scripts/ajaxDeletePhoto.php" />
+        <option value="$PROJECT_DIR$/js/admEditWork.js" />
+        <option value="$PROJECT_DIR$/scripts/ajaxCategorySelect.php" />
+        <option value="$PROJECT_DIR$/scripts/ajaxWorkSelect.php" />
+        <option value="$PROJECT_DIR$/admin/pages/deleteWork.php" />
+        <option value="$PROJECT_DIR$/scripts/ajaxDeleteSelectCategory.php" />
+        <option value="$PROJECT_DIR$/js/account.js" />
+        <option value="$PROJECT_DIR$/js/admText.js" />
+        <option value="$PROJECT_DIR$/js/admDeleteWork.js" />
+        <option value="$PROJECT_DIR$/scripts/deleteWork.php" />
       </list>
     </option>
   </component>
@@ -680,7 +688,13 @@
       <option name="project" value="LOCAL" />
       <updated>1478862087863</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Добавлена возможность добавления и редактирования работ, редактирования текстов и личных данных администратора">
+      <created>1479292117540</created>
+      <option name="number" value="00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1479292117540</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -689,20 +703,20 @@
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.249375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32985657" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32985657" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32985657" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32985657" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
@@ -739,7 +753,8 @@
     <MESSAGE value="Исправлен раздел работ" />
     <MESSAGE value="Добавлена авторизация" />
     <MESSAGE value="Добавлена титульная страница панели администрирования" />
-    <option name="LAST_COMMIT_MESSAGE" value="Добавлена титульная страница панели администрирования" />
+    <MESSAGE value="Добавлена возможность добавления и редактирования работ, редактирования текстов и личных данных администратора" />
+    <option name="LAST_COMMIT_MESSAGE" value="Добавлена возможность добавления и редактирования работ, редактирования текстов и личных данных администратора" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -779,32 +794,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/scripts/connect.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/logo.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/footer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="2" column="66" selection-start-line="2" selection-start-column="66" selection-end-line="2" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/menu.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="4" column="60" selection-start-line="4" selection-start-column="60" selection-end-line="4" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/shadowbox/shadowbox.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -944,6 +933,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-6.5384617">
           <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -951,6 +941,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.23842917">
           <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -958,6 +949,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-6.5384617">
           <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+          <folding>
+            <marker date="1479038363526" expanded="true" signature="112:158" placeholder="UPDATE woo_t... " />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -975,13 +969,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.023842918">
           <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/ajaxPriceCategoryEdit.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.23842917">
-          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+          <folding>
+            <marker date="1479038150958" expanded="true" signature="112:152" placeholder="UPDATE woo_t... " />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -989,6 +979,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.16690043">
           <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+          <folding>
+            <marker date="1479042629664" expanded="true" signature="66:118" placeholder="SELECT categ... woo_price_categories" />
+            <marker date="1479042629664" expanded="true" signature="66:120" placeholder="SELECT categ... woo_price_categories" />
+            <marker date="1479042629664" expanded="true" signature="66:166" placeholder="SELECT categ... woo_price_categories" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -996,13 +991,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-20.23077">
           <caret line="35" column="161" selection-start-line="35" selection-start-column="161" selection-end-line="35" selection-end-column="161" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/ajaxPriceCategorySelect.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.076923">
-          <caret line="20" column="29" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
+          <folding>
+            <marker date="1479116324656" expanded="true" signature="63:99" placeholder="SELECT * FRO... woo_price" />
+            <marker date="1479116324656" expanded="true" signature="63:145" placeholder="SELECT * FRO... woo_price" />
+            <marker date="1479116324656" expanded="true" signature="218:241" placeholder="SELECT * FRO... woo_units" />
+            <marker date="1479116324656" expanded="true" signature="273:411" placeholder="..." />
+            <marker date="1479116324656" expanded="true" signature="273:595" placeholder="..." />
+            <marker date="1479116324656" expanded="true" signature="273:1439" placeholder="..." />
+            <marker date="1479116324656" expanded="true" signature="764:963" placeholder="..." />
+            <marker date="1479116324656" expanded="true" signature="1324:1430" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1010,6 +1008,18 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-9.153846">
           <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+          <folding>
+            <marker date="1479118025810" expanded="true" signature="329:361" placeholder="UPDATE woo_p... " />
+            <marker date="1479118025810" expanded="true" signature="329:371" placeholder="UPDATE woo_p... " />
+            <marker date="1479118025810" expanded="true" signature="329:382" placeholder="UPDATE woo_p... " />
+            <marker date="1479118025810" expanded="true" signature="329:393" placeholder="UPDATE woo_p... " />
+            <marker date="1479118025810" expanded="true" signature="329:403" placeholder="UPDATE woo_p... " />
+            <marker date="1479118025810" expanded="true" signature="329:413" placeholder="UPDATE woo_p... " />
+            <marker date="1479118025810" expanded="true" signature="329:430" placeholder="UPDATE woo_p... " />
+            <marker date="1479118025810" expanded="true" signature="329:447" placeholder="UPDATE woo_p... " />
+            <marker date="1479118025810" expanded="true" signature="329:460" placeholder="UPDATE woo_p... " />
+            <marker date="1479118025810" expanded="true" signature="329:468" placeholder="UPDATE woo_p... " />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1018,13 +1028,6 @@
         <state vertical-scroll-proportion="-23.538462">
           <caret line="129" column="10" selection-start-line="110" selection-start-column="4" selection-end-line="129" selection-end-column="10" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/account.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.06901218">
-          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
         </state>
       </provider>
     </entry>
@@ -1055,6 +1058,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.8330996">
           <caret line="144" column="9" selection-start-line="144" selection-start-column="9" selection-end-line="144" selection-end-column="9" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1062,6 +1066,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.23842917">
           <caret line="10" column="80" selection-start-line="10" selection-start-column="80" selection-end-line="10" selection-end-column="80" />
+          <folding>
+            <marker date="1479194683948" expanded="true" signature="66:120" placeholder="SELECT MAX(p... woo_works" />
+            <marker date="1479194683948" expanded="true" signature="66:172" placeholder="SELECT MAX(p... woo_works" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1147,105 +1155,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="73" column="106" selection-start-line="73" selection-start-column="106" selection-end-line="73" selection-end-column="106" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/admWork.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="54" column="34" selection-start-line="54" selection-start-column="34" selection-end-line="54" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/admText.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.26657647">
-          <caret line="396" column="72" selection-start-line="396" selection-start-column="66" selection-end-line="396" selection-end-column="72" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/ajaxCategorySelect.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.8461537">
-          <caret line="12" column="29" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
-          <folding>
-            <marker date="1479201368072" expanded="true" signature="62:104" placeholder="SELECT * FRO... woo_works" />
-            <marker date="1479201368072" expanded="true" signature="62:156" placeholder="SELECT * FRO... woo_works" />
-            <marker date="1479201368072" expanded="true" signature="62:170" placeholder="SELECT * FRO... woo_works" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/pages/editWork.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.115385">
-          <caret line="132" column="42" selection-start-line="132" selection-start-column="42" selection-end-line="132" selection-end-column="42" />
-          <folding>
-            <marker date="1479217195526" expanded="true" signature="5239:5269" placeholder="SELECT * FRO... works_categories" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/admEditWork.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="77" column="17" selection-start-line="77" selection-start-column="17" selection-end-line="77" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/ajaxWorkSelect.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.093969144">
-          <caret line="17" column="16" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
-          <folding>
-            <marker date="1479217229814" expanded="true" signature="62:98" placeholder="SELECT * FRO... woo_works" />
-            <marker date="1479217229814" expanded="true" signature="62:144" placeholder="SELECT * FRO... woo_works" />
-            <marker date="1479217229814" expanded="true" signature="222:276" placeholder="SELECT MAX(p... woo_works" />
-            <marker date="1479217229814" expanded="true" signature="222:328" placeholder="SELECT MAX(p... woo_works" />
-            <marker date="1479217229814" expanded="true" signature="534:724" placeholder="..." />
-            <marker date="1479217229814" expanded="true" signature="1290:1338" placeholder="SELECT * FRO... woo_works_photos" />
-            <marker date="1479217229814" expanded="true" signature="1290:1354" placeholder="SELECT * FRO... woo_works_photos" />
-            <marker date="1479217229814" expanded="true" signature="1496:1602" placeholder="..." />
-            <marker date="1479217229814" expanded="true" signature="1496:1620" placeholder="..." />
-            <marker date="1479217229814" expanded="true" signature="1496:1638" placeholder="..." />
-            <marker date="1479217229814" expanded="true" signature="1496:1639" placeholder="..." />
-            <marker date="1479217229814" expanded="true" signature="1496:1792" placeholder="..." />
-            <marker date="1479217229814" expanded="true" signature="1496:1810" placeholder="..." />
-            <marker date="1479217229814" expanded="true" signature="1496:1896" placeholder="..." />
-            <marker date="1479217229814" expanded="true" signature="1929:1941" placeholder="..." />
-            <marker date="1479217229814" expanded="true" signature="2438:2453" placeholder="..." />
-            <marker date="1479217229814" expanded="true" signature="2438:2462" placeholder="..." />
-            <marker date="1479217229814" expanded="true" signature="2438:2498" placeholder="..." />
-            <marker date="1479217229814" expanded="true" signature="2438:2506" placeholder="..." />
-            <marker date="1479217229814" expanded="true" signature="2438:2511" placeholder="..." />
-            <marker date="1479217229814" expanded="true" signature="2438:2525" placeholder="..." />
-            <marker date="1479217229814" expanded="true" signature="2438:2541" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/ajaxDeletePhoto.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.807693">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-          <folding>
-            <marker date="1479204169669" expanded="true" signature="113:154" placeholder="SELECT * FRO... woo_works_photos" />
-            <marker date="1479204169669" expanded="true" signature="113:156" placeholder="SELECT * FRO... woo_works_photos" />
-            <marker date="1479204169669" expanded="true" signature="113:164" placeholder="SELECT * FRO... woo_works_photos" />
-            <marker date="1479204169669" expanded="true" signature="113:166" placeholder="SELECT * FRO... woo_works_photos" />
-            <marker date="1479204169669" expanded="true" signature="226:267" placeholder="DELETE FROM " />
-            <marker date="1479204169669" expanded="true" signature="226:275" placeholder="DELETE FROM " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/scripts/addWork.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-13.730769">
@@ -1278,10 +1187,142 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/ajaxDeletePhoto.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.153846">
+          <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
+          <folding>
+            <marker date="1479300059794" expanded="true" signature="113:154" placeholder="SELECT * FRO... woo_works_photos" />
+            <marker date="1479300059794" expanded="true" signature="113:156" placeholder="SELECT * FRO... woo_works_photos" />
+            <marker date="1479300059794" expanded="true" signature="113:164" placeholder="SELECT * FRO... woo_works_photos" />
+            <marker date="1479300059794" expanded="true" signature="113:166" placeholder="SELECT * FRO... woo_works_photos" />
+            <marker date="1479300059794" expanded="true" signature="226:267" placeholder="DELETE FROM " />
+            <marker date="1479300059794" expanded="true" signature="226:275" placeholder="DELETE FROM " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/ajaxPriceCategorySelect.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-13.076923">
+          <caret line="20" column="29" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
+          <folding>
+            <marker date="1479112120320" expanded="true" signature="66:154" placeholder="SELECT * FRO... woo_price" />
+            <marker date="1479112120320" expanded="true" signature="296:354" placeholder="..." />
+            <marker date="1479112120320" expanded="true" signature="296:509" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/ajaxPriceCategoryEdit.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.23842917">
+          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+          <folding>
+            <marker date="1479042706255" expanded="true" signature="105:218" placeholder="UPDATE woo_p... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/ajaxCategorySelect.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.14305751">
+          <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
+          <folding>
+            <marker date="1479309088426" expanded="true" signature="62:104" placeholder="SELECT * FRO... woo_works" />
+            <marker date="1479309088426" expanded="true" signature="62:156" placeholder="SELECT * FRO... woo_works" />
+            <marker date="1479309088426" expanded="true" signature="62:170" placeholder="SELECT * FRO... woo_works" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/pages/editWork.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.11781206">
+          <caret line="123" column="55" selection-start-line="123" selection-start-column="55" selection-end-line="123" selection-end-column="55" />
+          <folding>
+            <marker date="1479217195526" expanded="true" signature="5239:5269" placeholder="SELECT * FRO... works_categories" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-16.615385">
+          <caret line="73" column="106" selection-start-line="73" selection-start-column="106" selection-end-line="73" selection-end-column="106" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/ajaxWorkSelect.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8330996">
+          <caret line="64" column="10" selection-start-line="61" selection-start-column="4" selection-end-line="64" selection-end-column="10" />
+          <folding>
+            <marker date="1479309088426" expanded="true" signature="62:98" placeholder="SELECT * FRO... woo_works" />
+            <marker date="1479309088426" expanded="true" signature="62:144" placeholder="SELECT * FRO... woo_works" />
+            <marker date="1479309088426" expanded="true" signature="222:276" placeholder="SELECT MAX(p... woo_works" />
+            <marker date="1479309088426" expanded="true" signature="222:328" placeholder="SELECT MAX(p... woo_works" />
+            <marker date="1479309088426" expanded="true" signature="528:718" placeholder="..." />
+            <marker date="1479309088426" expanded="true" signature="1284:1332" placeholder="SELECT * FRO... woo_works_photos" />
+            <marker date="1479309088426" expanded="true" signature="1284:1348" placeholder="SELECT * FRO... woo_works_photos" />
+            <marker date="1479309088426" expanded="true" signature="1490:1596" placeholder="..." />
+            <marker date="1479309088426" expanded="true" signature="1490:1614" placeholder="..." />
+            <marker date="1479309088426" expanded="true" signature="1490:1632" placeholder="..." />
+            <marker date="1479309088426" expanded="true" signature="1490:1633" placeholder="..." />
+            <marker date="1479309088426" expanded="true" signature="1490:1786" placeholder="..." />
+            <marker date="1479309088426" expanded="true" signature="1490:1804" placeholder="..." />
+            <marker date="1479309088426" expanded="true" signature="1490:1890" placeholder="..." />
+            <marker date="1479309088426" expanded="true" signature="1923:1935" placeholder="..." />
+            <marker date="1479309088426" expanded="true" signature="2432:2447" placeholder="..." />
+            <marker date="1479309088426" expanded="true" signature="2432:2456" placeholder="..." />
+            <marker date="1479309088426" expanded="true" signature="2432:2492" placeholder="..." />
+            <marker date="1479309088426" expanded="true" signature="2432:2500" placeholder="..." />
+            <marker date="1479309088426" expanded="true" signature="2432:2505" placeholder="..." />
+            <marker date="1479309088426" expanded="true" signature="2432:2519" placeholder="..." />
+            <marker date="1479309088426" expanded="true" signature="2432:2535" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/admWork.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.2422192">
+          <caret line="54" column="34" selection-start-line="54" selection-start-column="34" selection-end-line="54" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/account.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="61" column="66" selection-start-line="61" selection-start-column="66" selection-end-line="61" selection-end-column="66" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/admText.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="2.150203">
+          <caret line="499" column="66" selection-start-line="499" selection-start-column="66" selection-end-line="499" selection-end-column="66" />
+          <folding>
+            <marker date="1479321639169" expanded="true" signature="12758:12847" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/admEditWork.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="55" column="15" selection-start-line="55" selection-start-column="15" selection-end-line="55" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/scripts/editWork.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.1669004">
-          <caret line="102" column="13" selection-start-line="102" selection-start-column="13" selection-end-line="102" selection-end-column="13" />
+        <state vertical-scroll-proportion="-16.961538">
+          <caret line="86" column="174" selection-start-line="86" selection-start-column="174" selection-end-line="86" selection-end-column="174" />
           <folding>
             <marker date="1479291907842" expanded="true" signature="534:570" placeholder="SELECT * FRO... woo_works" />
             <marker date="1479291907842" expanded="true" signature="534:582" placeholder="SELECT * FRO... woo_works" />
@@ -1331,6 +1372,89 @@
             <marker date="1479291907842" expanded="true" signature="4149:4251" placeholder="INSERT INTO woo_works_photos... " />
             <marker date="1479291907842" expanded="true" signature="4149:4266" placeholder="INSERT INTO woo_works_photos... " />
             <marker date="1479291907842" expanded="true" signature="4149:4269" placeholder="INSERT INTO woo_works_photos... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/admDeleteWork.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="48" column="37" selection-start-line="48" selection-start-column="37" selection-end-line="48" selection-end-column="37" />
+          <folding>
+            <marker date="1479323102377" expanded="true" signature="426:509" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/ajaxDeleteSelectCategory.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.153846">
+          <caret line="14" column="43" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="43" />
+          <folding>
+            <marker date="1479321191448" expanded="true" signature="62:102" placeholder="SELECT * FRO... woo_works" />
+            <marker date="1479321191448" expanded="true" signature="62:104" placeholder="SELECT * FRO... woo_works" />
+            <marker date="1479321191448" expanded="true" signature="62:156" placeholder="SELECT * FRO... woo_works" />
+            <marker date="1479321191448" expanded="true" signature="62:158" placeholder="SELECT * FRO... woo_works" />
+            <marker date="1479321191448" expanded="true" signature="319:378" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/pages/deleteWork.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="32.73077">
+          <caret line="32" column="76" selection-start-line="32" selection-start-column="76" selection-end-line="32" selection-end-column="76" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#a#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#a#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#a#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#a#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#a#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#a#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#a#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#a#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#a#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#a#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#a#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#a#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#a#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#a#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#a#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#a#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#a#5;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#a#5;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#a#5;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#a#6;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#a#6;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#a#6;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1479320868038" expanded="true" signature="4462:4492" placeholder="SELECT * FRO... works_categories" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/deleteWork.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5245442">
+          <caret line="22" column="20" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
+          <folding>
+            <marker date="1479323212380" expanded="true" signature="112:148" placeholder="SELECT * FRO... woo_works" />
+            <marker date="1479323212380" expanded="true" signature="112:156" placeholder="SELECT * FRO... woo_works" />
+            <marker date="1479323212380" expanded="true" signature="246:284" placeholder="DELETE FROM " />
+            <marker date="1479323212380" expanded="true" signature="378:426" placeholder="SELECT * FRO... woo_works_photos" />
+            <marker date="1479323212380" expanded="true" signature="378:434" placeholder="SELECT * FRO... woo_works_photos" />
+            <marker date="1479323212380" expanded="true" signature="378:449" placeholder="SELECT * FRO... woo_works_photos" />
+            <marker date="1479323212380" expanded="true" signature="521:562" placeholder="DELETE FROM " />
+            <marker date="1479323212380" expanded="true" signature="521:583" placeholder="DELETE FROM " />
+            <marker date="1479323212380" expanded="true" signature="755:803" placeholder="SELECT * FRO... woo_works_photos" />
+            <marker date="1479323212380" expanded="true" signature="755:810" placeholder="SELECT * FRO... woo_works_photos" />
+            <marker date="1479323212380" expanded="true" signature="755:811" placeholder="SELECT * FRO... woo_works_photos" />
+            <marker date="1479323212380" expanded="true" signature="755:812" placeholder="SELECT * FRO... woo_works_photos" />
+            <marker date="1479323212380" expanded="true" signature="941:999" placeholder="DELETE FROM " />
           </folding>
         </state>
       </provider>
