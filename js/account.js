@@ -15,36 +15,51 @@ $(window).load(function() {
     });
 
 	$('#button').click(function() {
-		if($('#admLogin').val() == "" || $('#admPassword').val() == "") {
+		if($('#admSettingsLogin').val() == "" || $('#admSettingsPassword').val() == "") {
 			if($('#admResponseField').css('opacity') == '1') {
 				$('#admResponseField').css('opacity', '0');
 				setTimeout(function() {
+					$('#admResponseField').css('color', '#a22222');
 					$('#admResponseField').html('Заполните все поля.<br /><br />');
 					$('#admResponseField').css('opacity', '1');
 				}, 300);
 			} else {
+				$('#admResponseField').css('color', '#a22222');
 				$('#admResponseField').html('Заполните все поля.<br /><br />');
 				$('#admResponseField').css('opacity', '1');
 			}
 		} else {
 			$.ajax({
 				type: 'POST',
-				data: {"login": $('#admLogin').val(), "password": $('#admPassword').val()},
-				url: '../scripts/ajaxLogin.php',
+				data: {"login": $('#admSettingsLogin').val(), "password": $('#admSettingsPassword').val()},
+				url: '../../scripts/ajaxAccount.php',
 				success: function(response) {
 					switch(response){
 						case "a":
-							window.location.href = "admin.php";
+							if($('#admResponseField').css('opacity') == '1') {
+								$('#admResponseField').css('opacity', '0');
+								setTimeout(function() {
+									$('#admResponseField').css('color', '#53acff');
+									$('#admResponseField').html('Данные были успешно изменены.<br /><br />');
+									$('#admResponseField').css('opacity', '1');
+								}, 300);
+							} else {
+								$('#admResponseField').css('color', '#53acff');
+								$('#admResponseField').html('Данные были успешно изменены.<br /><br />');
+								$('#admResponseField').css('opacity', '1');
+							}
 							break;
 						case "b":
 							if($('#admResponseField').css('opacity') == '1') {
 								$('#admResponseField').css('opacity', '0');
 								setTimeout(function() {
-									$('#admResponseField').html('Введённый логин и пароль неверны.<br /><br />');
+									$('#admResponseField').css('color', '#a22222');
+									$('#admResponseField').html('Проиошла ошибка. Попробуйте повторить попытку.<br /><br />');
 									$('#admResponseField').css('opacity', '1');
 								}, 300);
 							} else {
-								$('#admResponseField').html('Введённый логин и пароль неверны.<br /><br />');
+								$('#admResponseField').css('color', '#a22222');
+								$('#admResponseField').html('Проиошла ошибка. Попробуйте повторить попытку.<br /><br />');
 								$('#admResponseField').css('opacity', '1');
 							}
 							break;

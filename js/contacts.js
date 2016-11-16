@@ -191,4 +191,3 @@ function textAreaHeight(textarea) {
         textarea._timer = false;
     }, 1);
 }
-

@@ -102,14 +102,14 @@ if(!empty($_REQUEST['id'])) {
         <?php
 
         if(empty($_REQUEST['id'])) {
-            $workResult = $mysqli->query("SELECT * FROM woo_works WHERE category = '".$c."' ORDER BY id DESC");
+            $workResult = $mysqli->query("SELECT * FROM woo_works WHERE category = '".$c."' ORDER BY priority");
             $count = 0;
 
             while($work = $workResult->fetch_assoc()) {
                 echo "
                     <a href='works.php?id=".$work['id']."' onmouseover='workOverlay(\"1\", \"overlay".$work['id']."\", \"workPreview".$work['id']."\")' onmouseout='workOverlay(\"0\", \"overlay".$work['id']."\", \"workPreview".$work['id']."\")'>
                         <div class='workPreview' id='workPreview".$work['id']."'>
-                            <img src='img/works/preview/".$work['preview']."' style='width: 300px;' />
+                            <img src='img/works/preview/".$work['preview']."' style='width: 300px; height: 300px;' />
                             <br /><br />
                             <span class='nameFont'>".$work['name']."</span>
                             <div class='workOverlay' id='overlay".$work['id']."'></div>
@@ -127,7 +127,7 @@ if(!empty($_REQUEST['id'])) {
             ";
 
             while($photo = $photoResult->fetch_assoc()) {
-                echo "<a href='img/works/big/".$photo['big']."' rel='shadowbox[set]'><div><img src='img/works/big/".$photo['big']."' class='workPhoto' /></div></a><br />";
+                echo "<a href='img/works/big/".$photo['big']."' rel='shadowbox[set]'><div><img src='img/works/small/".$photo['small']."' class='workPhoto' /></div></a><br />";
             }
 
             echo "
@@ -137,7 +137,7 @@ if(!empty($_REQUEST['id'])) {
                     <br /><br />
                     <span class='categoryFont'>техника: </span>".$work['technics']."
                     <br /><br />
-                    ".$work['description']."
+                    ".nl2br($work['description'])."
                     <br /><br />
                     <div id='button'>
                         <a href='works.php?c=".$work['category']."'>

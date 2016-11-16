@@ -2,6 +2,7 @@ html, body {margin: 0; padding: 0; background-color: #f8f8f8; color: #000; font-
 a {border: none; text-decoration: none;}
 img {-moz-user-select: none; -webkit-user-select: none; -ms-user-select: none; user-select: none; pointer-events: none;}
 input {width: 580px; height: 22px; line-height: 22px; padding: 10px; border: none; background-color: #eee; margin-top: 10px; font-style: italic;}
+select {height: 50px; padding: 10px; border: none; background-color: #eee; font-style: italic; margin-top: 10px;}
 textarea {width: 580px; height: 22px; padding: 10px; border: none; background-color: #eee; margin-top: 10px; font-style: italic; resize: none; transition: .3s; word-wrap: break-word; line-height: 22px;}
 label {color: #000; font-family: 'EB Garamond', serif; font-size: 18px;}
 h1 {font-family: 'Open Sans Condensed', sans-serif; font-size: 30px; color: #000;}
@@ -51,14 +52,24 @@ h1 {font-family: 'Open Sans Condensed', sans-serif; font-size: 30px; color: #000
 .categoriesText {font-family: 'Open Sans Condensed', sans-serif; font-size: 20px; color: #777;}
 
 /* admin/index.php */
-#enterForm {position: relative; margin: 40px auto auto auto; width: 380px; padding:10px; background-color: #fff; box-shadow: 0 0 5px rgba(0,0,0,0.3); text-align: left;}
-#admEnterForm input {width: 360px; background-color: #f8f8f8; height: 30px; line-height: 30px;}
-#enterForm #button {position: inherit; left: 0; margin: 0;}
-#admResponseField {width: 100%; color: #a22222; opacity: 0; transition: .3s;}
+#enterForm {position: relative; margin: 40px auto auto auto; width: 380px; padding: 10px; background-color: #fff; box-shadow: 0 0 5px rgba(0,0,0,0.3); text-align: left;}
+#admEnterForm input, #admSettingsForm input {width: 360px; background-color: #f8f8f8; height: 30px; line-height: 30px;}
+#enterForm #button, #admSettingsForm #button {position: inherit; left: 0; margin: 0;}
+#admResponseField {width: 100%; color: #a22222; opacity: 0; transition: .3s; font-size: 18px;}
 
 /* admin/admin.php */
 #upperMenu {width: 100%; height: 60px; background-color: #2e2e2e; color: #fff; font-size: 14px;}
+#admSettingsForm {width: 380px; padding: 10px; background-color: #fff; box-shadow: 0 0 5px rgba(0,0,0,0.3);}
+#leftMenu {position: relative; float: left; width: 206px; background-color: #595959; color: #fff; font-size: 14px;}
+#adminContent {position: relative; float: left; margin-left: 20px;}
+#aboutTextForm, #addWorkForm, #editWorkForm {padding: 10px; background-color: #fff; box-shadow: 0 0 5px rgba(0,0,0,0.3);}
+#admButton, #admButton1, #admButton2, #admButton3, #admButton4, #admButton5, #admButton6 {width: 150px; height: 50px; line-height: 50px; box-shadow: 0 0 5px rgba(0,0,0,0.3); text-align: center; cursor: pointer;}
+#editWorkForm img {width: 20px; height: 20px;}
 
 .umc {position: relative; float: left; height: 100%; padding-left: 10px; padding-right: 10px; transition: .3s;}
-.umc a div {color: #fff;}
+a .umc div, a .lmc div {color: #fff;}
 .uml {position: relative; float: left; width: 1px; height: 100%; background-color: #3f3f3f;}
+.lmc {position: relative; float: left; width: 186px; height: 30px; line-height: 30px; padding-left: 10px; padding-right: 10px; transition: .3s;}
+.lml {position: relative; float: left; width: 100%; height: 1px; background-color: #777; margin-top: 10px;}
+.admPhoto {margin-left: 10px; width: 20px; height: 20px; position: relative; float: left; transition: .3s;}
+.admPhotoDelete {position: absolute; top: -20px; left: 0; width: 20px; height: 20px; background-color: #a22222; transition: .3s; cursor: pointer; display: none; opacity: 0;}
