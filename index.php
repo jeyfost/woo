@@ -31,6 +31,7 @@ include("scripts/connect.php");
 
     <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
     <script type="text/javascript" src="js/menu.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
     <script type="text/javascript" src="js/footer.js"></script>
 
     <script type="text/javascript">
@@ -71,51 +72,13 @@ include("scripts/connect.php");
 
 <div style="clear: both;"></div>
 
-<div id="content">
-    <div class="centerContainer" id="mainCenterContainer">
-        <div class="halfContainer" id="mainHalf">
-            <span class="headerFont">Кто мы?</span>
-            <br /><br />
-            <?php
-
-            $textResult = $mysqli->query("SELECT * FROM woo_text");
-            $text = $textResult->fetch_assoc();
-
-            echo $text['team_text'];
-
-            ?>
-        </div>
-        <div class="halfContainer">
-            <?php
-
-            $photosResult = $mysqli->query("SELECT * FROM woo_about_photos");
-            $photos = $photosResult->fetch_assoc();
-
-            echo "
-                <div class='personContainer' id='ePerson'>
-                    <img src='img/team/".$photos['e_dark']."' />
-                    <br /><br />
-                    <span class='nameFont'>Евгения</span>
-                    <div class='workOverlay' id='eOverlay'></div>
-                </div>
-                <div style='position: relative; float: left; width: 10px; height: 100%; min-height: 300px;'></div>
-                <div class='personContainer' id='nPerson'>
-                    <img src='img/team/".$photos['n_dark']."' />
-                    <br /><br />
-                    <span class='nameFont'>Наталия</span>
-                    <div class='workOverlay' id='nOverlay'></div>
-                </div>
-            ";
-
-            ?>
-        </div>
-        <div style="clear: both;"></div>
-        <br /><br />
-        <span class="headerFont" style="color: #a22222;"><?php echo $text['about_slogan']; ?></span>
-    </div>
-
-    <div id="info"></div>
-
+<div id="contentMain">
+	<br /><br />
+	<img src="img/main.jpg" id="mainImg" />
+	<div id="slogan" style="display: inline-block; position: absolute;">
+		<span style="color: #fff; font-size: 100px; font-family: 'Open Sans Condensed', sans-serif;">Посвящено совершенству</span>
+	</div>
+	<div id="mask"></div>
 </div>
 
 <div id="footer">
@@ -124,6 +87,26 @@ include("scripts/connect.php");
                 <a href="index.php"><span class="headerFont">WOO WOO DESIGN</span></a>
                 <br />
                 <span style="font-size: 16px;">Создание сайта и дизайн: <a href="http://airlab.by">airlab</a></span>
+				<script type="text/javascript">(function() {
+						if (window.pluso) {
+							if(typeof window.pluso.start == "function") {
+								return;
+							}
+						}
+
+						if(window.ifpluso == undefined) {
+							window.ifpluso = 1;
+							var d = document, s = d.createElement('script'), g = 'getElementsByTagName';
+							s.type = 'text/javascript';
+							s.charset='UTF-8';
+							s.async = true;
+							s.src = ('https:' == window.location.protocol ? 'https' : 'http') + '://share.pluso.ru/pluso-like.js';
+							var h=d[g]('body')[0];
+							h.appendChild(s);
+						}
+					})();
+				</script>
+				<div class="pluso" style="margin: 10px 0 0 0; padding: 0;" data-background="transparent" data-options="medium,round,multiline,horizontal,counter,theme=04" data-services="vkontakte,odnoklassniki,facebook,twitter,google,moimir,email,print" data-url="http://woowoo.ru/" data-title="Woo Woo Design" data-description="Мы — команда художников-декораторов и изобретателей Woo Woo Design, в жизни которых главное — улыбка и созидание. Мы не будем ничего рассказывать о себе, Вам достаточно взглянуть на наши работы и знать, что это то, чем мы живём."></div>
             </div>
             <div class="footerSection" style="width: 34%;">
                 <span class="headerFont">Как нас найти?</span>

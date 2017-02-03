@@ -4,6 +4,8 @@ $(window).on("load", function() {
     $('#tlsPrice').width($('#mpPrice').width());
     $('#tlsAbout').width($('#mpAbout').width());
     $('#tlsContacts').width($('#mpContacts').width());
+
+    $(window).height(parseInt($(window).height() - 60));
 });
 
 function mpHover(action, point) {

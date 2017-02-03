@@ -54,10 +54,10 @@ include("scripts/connect.php");
         <div id="menuContainer">
             <div id="menuTopLine">
                 <div class="menuTopLineSection" id="tlsContacts"></div>
-                <div class="menuTopLineSection" id="tlsAbout"></div>
+                <div class="menuTopLineSectionActive" id="tlsAbout"></div>
                 <div class="menuTopLineSection" id="tlsPrice"></div>
                 <div class="menuTopLineSection" id="tlsWorks"></div>
-                <div class="menuTopLineSectionActive" id="tlsMain" style="margin: 0;"></div>
+                <div class="menuTopLineSection" id="tlsMain"></div>
             </div>
             <div id="menuPoints">
                <a href="contacts.php"><div class="menuPoint" id="mpContacts" onmouseover="mpHover(1, 'mpContacts')" onmouseout="mpHover(0, 'mpContacts')">Контакты</div></a>
@@ -125,6 +125,26 @@ include("scripts/connect.php");
                 <a href="index.php"><span class="headerFont">WOO WOO DESIGN</span></a>
                 <br />
                 <span style="font-size: 16px;">Создание сайта и дизайн: <a href="http://airlab.by">airlab</a></span>
+                <script type="text/javascript">(function() {
+						if (window.pluso) {
+							if(typeof window.pluso.start == "function") {
+								return;
+							}
+						}
+
+						if(window.ifpluso == undefined) {
+							window.ifpluso = 1;
+							var d = document, s = d.createElement('script'), g = 'getElementsByTagName';
+							s.type = 'text/javascript';
+							s.charset='UTF-8';
+							s.async = true;
+							s.src = ('https:' == window.location.protocol ? 'https' : 'http') + '://share.pluso.ru/pluso-like.js';
+							var h=d[g]('body')[0];
+							h.appendChild(s);
+						}
+					})();
+				</script>
+				<div class="pluso" style="margin: 10px 0 0 0; padding: 0;" data-background="transparent" data-options="medium,round,multiline,horizontal,counter,theme=04" data-services="vkontakte,odnoklassniki,facebook,twitter,google,moimir,email,print" data-url="http://woowoo.ru/" data-title="Woo Woo Design" data-description="Мы — команда художников-декораторов и изобретателей Woo Woo Design, в жизни которых главное — улыбка и созидание. Мы не будем ничего рассказывать о себе, Вам достаточно взглянуть на наши работы и знать, что это то, чем мы живём."></div>
             </div>
             <div class="footerSection" style="width: 34%;">
                 <span class="headerFont">Как нас найти?</span>
