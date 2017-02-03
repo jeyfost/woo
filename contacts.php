@@ -24,15 +24,30 @@ include("scripts/connect.php");
 
     <title>Контактная информация | Woo Woo Design</title>
 
+    <style>
+		#page-preloader {position: fixed; left: 0; top: 0; right: 0; bottom: 0; background: #fff; z-index: 100500;}
+		#page-preloader .spinner {width: 32px; height: 32px; position: absolute; left: 50%; top: 50%; background: url('img/spinner.gif') no-repeat 50% 50%; margin: -16px 0 0 -16px;}
+	</style>
+
     <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
     <script type="text/javascript" src="js/menu.js"></script>
     <script type="text/javascript" src="js/footer.js"></script>
     <script type="text/javascript" src="js/contacts.js"></script>
     <script type="text/javascript" src="js/works.js"></script>
 
+    <script type="text/javascript">
+        $(window).on('load', function () {
+            var $preloader = $('#page-preloader'), $spinner = $preloader.find('.spinner');
+            $spinner.delay(500).fadeOut();
+            $preloader.delay(850).fadeOut('slow');
+        });
+    </script>
+
 </head>
 
 <body>
+
+<div id="page-preloader"><span class="spinner"></span></div>
 
 <div id="menu">
     <div id="menuContent">
