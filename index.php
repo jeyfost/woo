@@ -38,16 +38,18 @@ include("scripts/connect.php");
         <a href="index.php"><div id="logo"></div></a>
         <div id="menuContainer">
             <div id="menuTopLine">
-                <div class="menuTopLineSection"></div>
-                <div class="menuTopLineSection"></div>
-                <div class="menuTopLineSection"></div>
-                <div class="menuTopLineSectionActive"></div>
+                <div class="menuTopLineSection" id="tlsContacts"></div>
+                <div class="menuTopLineSection" id="tlsAbout"></div>
+                <div class="menuTopLineSection" id="tlsPrice"></div>
+                <div class="menuTopLineSection" id="tlsWorks"></div>
+                <div class="menuTopLineSectionActive" id="tlsMain" style="margin: 0;"></div>
             </div>
             <div id="menuPoints">
-                <a href="contacts.php"><div class="menuPoint" id="mpContacts" onmouseover="mpHover(1, 'mpContacts')" onmouseout="mpHover(0, 'mpContacts')">Контакты</div></a>
-                <a href="price.php"><div class="menuPoint" id="mpPrice" onmouseover="mpHover(1, 'mpPrice')" onmouseout="mpHover(0, 'mpPrice')">Прайс</div></a>
-                <a href="works.php?c=1"><div class="menuPoint" id="mpWorks" onmouseover="mpHover(1, 'mpWorks')" onmouseout="mpHover(0, 'mpWorks')">Работы</div></a>
-                <a href="index.php"><div class="menuPointActive" id="mpMain">Главная</div></a>
+               <a href="contacts.php"><div class="menuPoint" id="mpContacts" onmouseover="mpHover(1, 'mpContacts')" onmouseout="mpHover(0, 'mpContacts')">Контакты</div></a>
+                <a href="about.php"><div class="menuPoint" id="mpAbout" onmouseover="mpHover(1, 'mpAbout')" onmouseout="mpHover(0, 'mpAbout')">О нас</div></a>
+                <a href="price.php"><div class="menuPoint" id="mpPrice" onmouseover="mpHover(1, 'mpPrice')" onmouseout="mpHover(0, 'mpPrice')">Услуги и цены</div></a>
+                <a href="works.php?c=1"><div class="menuPoint" id="mpWorks" onmouseover="mpHover(1, 'mpWorks')" onmouseout="mpHover(0, 'mpWorks')">Порфтолио</div></a>
+                <a href="index.php"><div class="menuPointActive" id="mpMain" style="margin: 0;">Главная</div></a>
             </div>
         </div>
     </div>
