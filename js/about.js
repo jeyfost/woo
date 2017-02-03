@@ -44,4 +44,6 @@ $(window).load(function() {
         $('#info').css('opacity', '0');
         $('#info').html('');
     });
-});
+});/**
+ * Created by acer on 03.02.2017.
+ */

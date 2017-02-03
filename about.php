@@ -22,7 +22,7 @@ include("scripts/connect.php");
     <link href='https://fonts.googleapis.com/css?family=EB+Garamond' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
 
-    <title>Woo Woo Design</title>
+    <title>О нас | Woo Woo Design</title>
 
     <style>
 		#page-preloader {position: fixed; left: 0; top: 0; right: 0; bottom: 0; background: #fff; z-index: 100500;}
@@ -31,6 +31,7 @@ include("scripts/connect.php");
 
     <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
     <script type="text/javascript" src="js/menu.js"></script>
+    <script type="text/javascript" src="js/about.js"></script>
     <script type="text/javascript" src="js/footer.js"></script>
 
     <script type="text/javascript">
@@ -60,10 +61,10 @@ include("scripts/connect.php");
             </div>
             <div id="menuPoints">
                <a href="contacts.php"><div class="menuPoint" id="mpContacts" onmouseover="mpHover(1, 'mpContacts')" onmouseout="mpHover(0, 'mpContacts')">Контакты</div></a>
-                <a href="about.php"><div class="menuPoint" id="mpAbout" onmouseover="mpHover(1, 'mpAbout')" onmouseout="mpHover(0, 'mpAbout')">О нас</div></a>
+                <a href="about.php"><div class="menuPointActive" id="mpAbout">О нас</div></a>
                 <a href="price.php"><div class="menuPoint" id="mpPrice" onmouseover="mpHover(1, 'mpPrice')" onmouseout="mpHover(0, 'mpPrice')">Услуги и цены</div></a>
                 <a href="works.php?c=1"><div class="menuPoint" id="mpWorks" onmouseover="mpHover(1, 'mpWorks')" onmouseout="mpHover(0, 'mpWorks')">Порфтолио</div></a>
-                <a href="index.php"><div class="menuPointActive" id="mpMain" style="margin: 0;">Главная</div></a>
+                <a href="index.php"><div class="menuPoint" id="mpMain" onmouseover="mpHover(1, 'mpMain')" onmouseout="mpHover(0, 'mpMain')" style="margin: 0;">Главная</div></a>
             </div>
         </div>
     </div>
