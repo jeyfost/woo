@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f9898053-d2e7-4958-bf35-ef51ecbfb151" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/scripts/ajaxEData.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/scripts/ajaxNData.php" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/about.php" afterPath="$PROJECT_DIR$/about.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/about.js" afterPath="$PROJECT_DIR$/js/about.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/contacts.php" afterPath="$PROJECT_DIR$/contacts.php" />
     </list>
     <ignored path="woo2.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -40,10 +35,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="about.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="about.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/about.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.1654979">
+            <state vertical-scroll-proportion="-1.2692307">
               <caret line="133" column="39" selection-start-line="133" selection-start-column="39" selection-end-line="133" selection-end-column="39" />
               <folding>
                 <element signature="n#style#0;n#div#2;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -73,6 +68,19 @@
             <state vertical-scroll-proportion="0.0">
               <caret line="23" column="35" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="35" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="contacts.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/contacts.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.6900421">
+              <caret line="115" column="255" selection-start-line="115" selection-start-column="255" selection-end-line="115" selection-end-column="255" />
+              <folding>
+                <element signature="n#style#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <marker date="1486131645423" expanded="true" signature="3343:3369" placeholder="SELECT * FRO... woo_contacts" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -144,11 +152,11 @@
         <option value="$PROJECT_DIR$/js/footer.js" />
         <option value="$PROJECT_DIR$/works.php" />
         <option value="$PROJECT_DIR$/price.php" />
-        <option value="$PROJECT_DIR$/contacts.php" />
         <option value="$PROJECT_DIR$/js/about.js" />
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/about.php" />
+        <option value="$PROJECT_DIR$/contacts.php" />
       </list>
     </option>
   </component>
@@ -483,7 +491,13 @@
       <option name="project" value="LOCAL" />
       <updated>1486124525772</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="Переделана страница &quot;О нас&quot;">
+      <created>1486131321872</created>
+      <option name="number" value="00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1486131321872</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -492,6 +506,7 @@
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.249375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32985657" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32985657" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -499,7 +514,6 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32985657" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -522,7 +536,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Обновление подключения к БД" />
     <MESSAGE value="Создана заготовка главной страницы" />
     <MESSAGE value="Созданы заготовки основных страниц" />
     <MESSAGE value="Доработана главная страница" />
@@ -547,7 +560,8 @@
     <MESSAGE value="Добавлен прелоадер" />
     <MESSAGE value="Добавлен страница &quot;О нас&quot;" />
     <MESSAGE value="Переделана главная страница и футер" />
-    <option name="LAST_COMMIT_MESSAGE" value="Переделана главная страница и футер" />
+    <MESSAGE value="Переделана страница &quot;О нас&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Переделана страница &quot;О нас&quot;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -947,16 +961,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/contacts.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="138" column="565" selection-start-line="138" selection-start-column="565" selection-end-line="138" selection-end-column="565" />
-          <folding>
-            <marker date="1486124422031" expanded="true" signature="3343:3369" placeholder="SELECT * FRO... woo_contacts" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/menu.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1031,7 +1035,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/about.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.1654979">
+        <state vertical-scroll-proportion="-1.2692307">
           <caret line="133" column="39" selection-start-line="133" selection-start-column="39" selection-end-line="133" selection-end-column="39" />
           <folding>
             <element signature="n#style#0;n#div#2;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -1050,6 +1054,17 @@
             <marker date="1486131163449" expanded="true" signature="4509:4753" placeholder="..." />
             <marker date="1486131163449" expanded="true" signature="4658:4687" placeholder="..." />
             <marker date="1486131163449" expanded="true" signature="8092:8118" placeholder="SELECT * FRO... woo_contacts" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contacts.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6900421">
+          <caret line="115" column="255" selection-start-line="115" selection-start-column="255" selection-end-line="115" selection-end-column="255" />
+          <folding>
+            <element signature="n#style#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1486131645423" expanded="true" signature="3343:3369" placeholder="SELECT * FRO... woo_contacts" />
           </folding>
         </state>
       </provider>

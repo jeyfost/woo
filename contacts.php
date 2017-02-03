@@ -109,6 +109,11 @@ include("scripts/connect.php");
             <div style="clear: both;"></div>
         </div>
     </form>
+    <br /><br />
+</div>
+
+<div style="width: 100%">
+    <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?sid=rJT4FcM3umnLlfL_oP6kCTahY4GfxFs-&amp;width=100%25&amp;height=400&amp;lang=ru_RU&amp;sourceType=constructor&amp;scroll=true"></script>
 </div>
 
 <div id="footer">
