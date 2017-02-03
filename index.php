@@ -75,8 +75,10 @@ include("scripts/connect.php");
 <div id="contentMain">
 	<br /><br />
 	<img src="img/main.jpg" id="mainImg" />
-	<div id="slogan" style="display: inline-block; position: absolute;">
-		<span style="color: #fff; font-size: 100px; font-family: 'Open Sans Condensed', sans-serif;">Посвящено совершенству</span>
+	<div id="slogan" style="display: inline-block; position: absolute; text-align: center; width: 100%; background-color: #fff; opacity: .5; padding-bottom: 15px;">
+		<div style="opacity: 1;">
+			<span style="color: #000; font-size: 80px; font-family: 'Open Sans Condensed', sans-serif;">Посвящено совершенству</span>
+		</div>
 	</div>
 	<div id="mask"></div>
 </div>

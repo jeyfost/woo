@@ -95,15 +95,23 @@ include("scripts/connect.php");
             echo "
                 <div class='personContainer' id='ePerson'>
                     <img src='img/team/".$photos['e_dark']."' />
-                    <br /><br />
-                    <span class='nameFont'>Евгения</span>
+                    <br />
+                    <div style='margin-top: 7px;'>
+                        <span class='nameFont'>Евгения</span>
+                        <br />
+                        <span class='nameFont' style='color: #000; font-size: 16px;'>(руководитель, художник)</span>
+                    </div>
                     <div class='workOverlay' id='eOverlay'></div>
                 </div>
                 <div style='position: relative; float: left; width: 10px; height: 100%; min-height: 300px;'></div>
                 <div class='personContainer' id='nPerson'>
                     <img src='img/team/".$photos['n_dark']."' />
-                    <br /><br />
-                    <span class='nameFont'>Наталия</span>
+                    <br />
+                    <div style='margin-top: 7px;'>
+                        <span class='nameFont'>Наталия</span>
+                        <br />
+                        <span class='nameFont' style='color: #000; font-size: 16px;'>(художник, дизайнер интерьеров)</span>
+                    </div>
                     <div class='workOverlay' id='nOverlay'></div>
                 </div>
             ";
@@ -112,10 +120,46 @@ include("scripts/connect.php");
         </div>
         <div style="clear: both;"></div>
         <br /><br />
-        <span class="headerFont" style="color: #a22222;"><?php echo $text['about_slogan']; ?></span>
+		<div style="width: 100%; text-align: left;">
+			<span class="headerFont">Как мы работаем?</span>
+			<br /><br /><br />
+			<div class="processContainer" style="margin: 0;">
+				<img src="img/process/1.png" />
+				<br />
+				<span class="nameFont">Звонок</span>
+				<br /><br />
+				<span>В ходе первого разговора мы узнаём задачу и назначаем встречу.</span>
+			</div>
+			<div class="processContainer">
+				<img src="img/process/2.png" />
+				<br />
+				<span class="nameFont">Встреча</span>
+				<br /><br />
+				<span>Встречаемся в офисе или на объекте, обсуждаем проект, согласовываем рабочие моменты.</span>
+			</div>
+			<div class="processContainer">
+				<img src="img/process/3.png" />
+				<br />
+				<span class="nameFont">Договор</span>
+				<br /><br />
+				<span>Составляем календарный план, считаем стоимость работ, подписываем документы.</span>
+			</div>
+			<div class="processContainer">
+				<img src="img/process/4.png" />
+				<br />
+				<span class="nameFont">Начало работы</span>
+				<br /><br />
+				<span>Делаем первые эскизы, обсуждаем. Если требуется, вносим правки, утверждаем.</span>
+			</div>
+			<div class="processContainer">
+				<img src="img/process/5.png" />
+				<br />
+				<span class="nameFont">Окончание работы</span>
+				<br /><br />
+				<span>После утверждения эскизов выполняем оставшуюся часть работ, сдаём, подписываем акт выполненных работ.</span>
+			</div>
+		</div>
     </div>
-
-    <div id="info"></div>
 
 </div>
 

@@ -5,15 +5,6 @@ $(window).load(function() {
         $('#eOverlay').css('top', '0');
         $('#eOverlay').css('left', '0');
         $('#eOverlay').css('opacity', '.2');
-
-        $.ajax({
-            type: 'POST',
-            url: 'scripts/ajaxEData.php',
-            success: function(response) {
-                $('#info').html(response);
-                $('#info').css('opacity', '1');
-            }
-        });
     });
 
     $('#ePerson').mouseout(function() {
@@ -28,15 +19,6 @@ $(window).load(function() {
         $('#nOverlay').css('top', '0');
         $('#nOverlay').css('left', '0');
         $('#nOverlay').css('opacity', '.2');
-
-        $.ajax({
-            type: 'POST',
-            url: 'scripts/ajaxNData.php',
-            success: function(response) {
-                $('#info').html(response);
-                $('#info').css('opacity', '1');
-            }
-        });
     });
 
     $('#nPerson').mouseout(function() {
@@ -44,6 +26,4 @@ $(window).load(function() {
         $('#info').css('opacity', '0');
         $('#info').html('');
     });
-});/**
- * Created by acer on 03.02.2017.
- */
+});
