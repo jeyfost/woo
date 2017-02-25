@@ -61,6 +61,5 @@ echo "
 	<br /><br />
 	<div id='admButton'>
 		<span class='nameFont'>Редактировать</span>
-		<div class='overlay' id='buttonOverlay'></div>
 	</div>
 ";

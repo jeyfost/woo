@@ -8,6 +8,7 @@ label {color: #000; font-family: 'EB Garamond', serif; font-size: 18px;}
 h1 {font-family: 'Open Sans Condensed', sans-serif; font-size: 30px; color: #000;}
 
 .categoriesText:hover {color: #a22222;}
+#admButton:hover, #admButton1:hover, #admButton2:hover, #admButton3:hover, #admButton4:hover, #admButton5:hover, #admButton6:hover, #button:hover {background-color: #ecd2d2;}
 
 /* public pages */
 
@@ -67,7 +68,7 @@ h1 {font-family: 'Open Sans Condensed', sans-serif; font-size: 30px; color: #000
 #leftMenu {position: relative; float: left; width: 206px; background-color: #595959; color: #fff; font-size: 14px;}
 #adminContent {position: relative; float: left; margin-left: 20px;}
 #aboutTextForm, #addWorkForm, #editWorkForm {padding: 10px; background-color: #fff; box-shadow: 0 0 5px rgba(0,0,0,0.3);}
-#admButton, #admButton1, #admButton2, #admButton3, #admButton4, #admButton5, #admButton6 {width: 150px; height: 50px; line-height: 50px; box-shadow: 0 0 5px rgba(0,0,0,0.3); text-align: center; cursor: pointer;}
+#admButton, #admButton1, #admButton2, #admButton3, #admButton4, #admButton5, #admButton6 {width: 150px; height: 50px; line-height: 50px; box-shadow: 0 0 5px rgba(0,0,0,0.3); text-align: center; cursor: pointer; transition: .3s; background-color: #fff;}
 #editWorkForm img {width: 20px; height: 20px;}
 
 .umc {position: relative; float: left; height: 100%; padding-left: 10px; padding-right: 10px; transition: .3s;}

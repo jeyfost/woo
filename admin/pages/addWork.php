@@ -202,7 +202,6 @@ include("../../scripts/connect.php");
 			<br /><br />
 			<div id="admButton">
 				<span class="nameFont">Добавить</span>
-				<div class="overlay" id="buttonOverlay"></div>
 			</div>
 		</form>
 	</div>

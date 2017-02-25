@@ -159,7 +159,6 @@ if(!empty($_REQUEST['id'])) {
                     <div id='button'>
                         <a href='works.php?c=".$work['category']."'>
                             <span class='nameFont'>Назад</span>
-                            <div class='overlay' id='buttonOverlay'></div>
                         </a>
                     </div>
                 </div>

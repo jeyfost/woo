@@ -35,7 +35,6 @@ echo "
 		<br /><br />
 		<div id='admButton6' onmouseover='admButtonMouseEvents(1, \"admButton6\")' onmouseout='admButtonMouseEvents(0, \"admButton6\")' onclick='pricePointEdit()'>
 			<span class='nameFont'>Редактировать</span>
-			<div class='overlay' id='buttonOverlay'></div>
 		</div>
 	</form>
 ";

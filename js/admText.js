@@ -334,7 +334,7 @@ function priceCategory() {
 		data: {"id": $('#priceCategorySelect').val()},
 		url: "../../scripts/ajaxPriceCategory.php",
 		success: function(response) {
-			$('#priceCategoryContainer').html("<label for='priceCategoryInput'>Название раздела:</label><br /><input type='text' name='priceCategory' id='priceCategoryInput' value='" + response + "' /><br /><br /><div id='admButton5' onmouseover='admButtonMouseEvents(1, \"admButton5\")' onmouseout='admButtonMouseEvents(0, \"admButton5\")' onclick='editPriceCategory()'><span class='nameFont'>Редактировать</span><div class='overlay' id='buttonOverlay'></div></div>");
+			$('#priceCategoryContainer').html("<label for='priceCategoryInput'>Название раздела:</label><br /><input type='text' name='priceCategory' id='priceCategoryInput' value='" + response + "' /><br /><br /><div id='admButton5' onmouseover='admButtonMouseEvents(1, \"admButton5\")' onmouseout='admButtonMouseEvents(0, \"admButton5\")' onclick='editPriceCategory()'><span class='nameFont'>Редактировать</span></div>");
 			$('#buttonOverlay').width($('#admButton5').width());
 			$('#buttonOverlay').height($('#admButton5').height());
 			$('#buttonOverlay').offset({top: $('#admButton5').offset().top, left: $('#admButton5').offset().left});

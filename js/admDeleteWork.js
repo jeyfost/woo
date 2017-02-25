@@ -12,7 +12,7 @@ $(window).load(function() {
 });
 
 function showDeleteButton() {
-	$('#deleteButtonContainer').html("<br /><br /><div id='admButton' onclick='deleteWork()'><span class='nameFont'>Удалить</span><div class='overlay' id='buttonOverlay'></div></div>");
+	$('#deleteButtonContainer').html("<br /><br /><div id='admButton' onclick='deleteWork()'><span class='nameFont'>Удалить</span></div>");
 
 	$('#buttonOverlay').width($('#admButton').width());
 	$('#buttonOverlay').height($('#admButton').height());

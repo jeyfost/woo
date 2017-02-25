@@ -178,7 +178,6 @@ if(!empty($_REQUEST['action'])) {
 							<br /><br />
 							<div id='admButton1'>
 								<span class='nameFont'>Редактировать</span>
-								<div class='overlay' id='buttonOverlay'></div>
 							</div>
 						</form>
 					";
@@ -200,7 +199,6 @@ if(!empty($_REQUEST['action'])) {
 							<br /><br />
 							<div id='admButton2'>
 								<span class='nameFont'>Редактировать</span>
-								<div class='overlay' id='buttonOverlay'></div>
 							</div>
 						</form>
 					";
@@ -222,7 +220,6 @@ if(!empty($_REQUEST['action'])) {
 							<br /><br />
 							<div id='admButton3'>
 								<span class='nameFont'>Редактировать</span>
-								<div class='overlay' id='buttonOverlay'></div>
 							</div>
 						</form>
 					";
@@ -244,7 +241,6 @@ if(!empty($_REQUEST['action'])) {
 							<br /><br />
 							<div id='admButton4'>
 								<span class='nameFont'>Редактировать</span>
-								<div class='overlay' id='buttonOverlay'></div>
 							</div>
 						</form>
 					";
