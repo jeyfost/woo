@@ -76,13 +76,19 @@ $(window).load(function() {
     $('#button').click(function() {
         var name = $('#nameInput').val();
         var email = $('#emailInput').val();
-        var theme = $('#themeInput').val();
+        var subject = $('#themeInput').val();
         var message = $('#messageInput').val();
 
-        if(name != "" && name != "Имя" && email != "" && email != "email" && theme != "" && theme != "Тема" && message != "" && message != "Сообщение") {
+        if(name != "" && name != "Имя" && email != "" && email != "email" && subject != "" && subject != "Тема" && message != "" && message != "Сообщение") {
             $.ajax({
                 type: 'POST',
-                data: {"name": name, "email": email, "theme": theme, "message": message},
+                data: {
+                    "name": name,
+                    "email": email,
+                    "subject": subject,
+                    "message": message,
+					"g-recaptcha-response": grecaptcha.getResponse()
+                },
                 url: 'scripts/ajaxContact.php',
                 success: function(response) {
                     switch(response) {
