@@ -56,16 +56,29 @@ function deleteWork() {
 						$('#admResponseField').css('opacity', '0');
 						setTimeout(function() {
 							$('#admResponseField').css('color', '#a22222');
-							$('#admResponseField').html('Эта работа уже была удалена.<br /><br />');
+							$('#admResponseField').html('Работа была удалена.<br /><br />');
 							$('#admResponseField').css('opacity', '1');
 						}, 300);
 					} else {
 						$('#admResponseField').css('color', '#a22222');
-						$('#admResponseField').html('Эта работа уже была удалена.<br /><br />');
+						$('#admResponseField').html('Работа была удалена.<br /><br />');
 						$('#admResponseField').css('opacity', '1');
 					}
 					break;
-				default: break;
+				default:
+					if($('#admResponseField').css('opacity') == '1') {
+						$('#admResponseField').css('opacity', '0');
+						setTimeout(function() {
+							$('#admResponseField').css('color', '#a22222');
+							$('#admResponseField').html(response);
+							$('#admResponseField').css('opacity', '1');
+						}, 300);
+					} else {
+						$('#admResponseField').css('color', '#a22222');
+						$('#admResponseField').html(response);
+						$('#admResponseField').css('opacity', '1');
+					}
+					break;
 			}
 		}
 	});
