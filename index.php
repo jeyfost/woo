@@ -111,13 +111,15 @@ include("scripts/connect.php");
             </div>
             <div class="footerSection" style="width: 34%;">
                 <span class="headerFont">Как нас найти?</span>
-                <br /><br />
+                <br />
+				<span style="font-size: 16px;">(по предварительному звонку)</span>
+				<br /><br />
                 <?php
 
-                $contactsResult = $mysqli->query("SELECT * FROM woo_contacts");
-                $contacts = $contactsResult->fetch_assoc();
+                	$contactsResult = $mysqli->query("SELECT * FROM woo_contacts");
+                	$contacts = $contactsResult->fetch_assoc();
 
-                echo $contacts['country'].", г. ".$contacts['city']."<br />".$contacts['address'];
+                	echo iconv('cp1251', 'utf8', $contacts['country']).", г. ".iconv('cp1251', 'utf8', $contacts['city'])."<br />".iconv('cp1251', 'utf8', $contacts['address']);
 
                 ?>
             </div>
@@ -125,9 +127,7 @@ include("scripts/connect.php");
                 <span class="headerFont">Как с нами связаться?</span>
                 <br /><br />
                 <?php
-
-                echo $contacts['phone1']."<br />".$contacts['phone2']."<br /><a href='mailto:".$contacts['email']."'>".$contacts['email']."</a>";
-
+                	echo "<br />".$contacts['phone1']."<br /><a href='mailto:".$contacts['email']."'>".$contacts['email']."</a>";
                 ?>
             </div>
     </div>

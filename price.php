@@ -85,6 +85,45 @@
 </div>
 
 <div id="content">
+	<div style="width: 100%; text-align: left;">
+		<div class="processContainer" style="margin: 0;">
+			<img src="img/process/1.png" />
+			<br />
+			<span class="nameFont">Звонок</span>
+			<br /><br />
+			<span>В ходе первого разговора мы узнаём задачу и назначаем встречу.</span>
+		</div>
+		<div class="processContainer">
+			<img src="img/process/2.png" />
+			<br />
+			<span class="nameFont">Встреча</span>
+			<br /><br />
+			<span>Встречаемся в офисе или на объекте, обсуждаем проект, согласовываем рабочие моменты.</span>
+		</div>
+		<div class="processContainer">
+			<img src="img/process/3.png" />
+			<br />
+			<span class="nameFont">Договор</span>
+			<br /><br />
+			<span>Составляем календарный план, считаем стоимость работ, подписываем документы.</span>
+		</div>
+		<div class="processContainer">
+			<img src="img/process/4.png" />
+			<br />
+			<span class="nameFont">Начало работы</span>
+			<br /><br />
+			<span>Делаем первые эскизы, обсуждаем. Если требуется, вносим правки, утверждаем.</span>
+		</div>
+		<div class="processContainer">
+			<img src="img/process/5.png" />
+			<br />
+			<span class="nameFont">Окончание работы</span>
+			<br /><br />
+			<span>После утверждения эскизов выполняем оставшуюся часть работ, сдаём, подписываем акт выполненных работ.</span>
+		</div>
+	</div>
+	<br /><br />
+
     <?php
 
     $priceCategoryResult = $mysqli->query("SELECT * FROM woo_price_categories ORDER BY id");
@@ -92,11 +131,11 @@
         echo "
             <div class='container'>
                 <div class='priceNameContainer'>
-                    <span class='nameFont'>".$priceCategory['category']."</span>
+                    <span class='nameFont'>".iconv('cp1251', 'utf8', $priceCategory['category'])."</span>
                 </div>
         ";
 
-        $priceResult = $mysqli->query("SELECT * FROM woo_price WHERE category = '".$priceCategory['id']."'");
+        $priceResult = $mysqli->query("SELECT * FROM woo_price WHERE category = '".$priceCategory['id']."' ORDER BY id");
         $count = 0;
 
         while($price = $priceResult->fetch_assoc()) {
@@ -107,11 +146,11 @@
                 echo "
                     <div class='container'>
                         <div class='priceLeft'>
-                            <span class='headerFont'>".$price['service']."</span>
+                            <span class='headerFont'>".iconv('cp1251', 'utf8', $price['service'])."</span>
                             <br /><br />
-                            <span class='categoryFont'>".$price['description']."</span>
+                            <span class='categoryFont'>".iconv('cp1251', 'utf8', $price['description'])."</span>
                             <br /><br />
-                            <span class='nameFont'>от ".$price['price']." руб/".$unit[0]."</span>
+                            <span class='nameFont'>от ".$price['price']." руб/".iconv('cp1251', 'utf8', $unit[0])."</span>
                         </div>
                         <div class='priceRight' style='margin-left: 10px;'>
                             <img src='img/price/".$price['picture']."' />
@@ -126,19 +165,17 @@
                             <img src='img/price/".$price['picture']."' />
                         </div>
                         <div class='priceLeft' style='margin-left: 10px;'>
-                            <span class='headerFont'>".$price['service']."</span>
+                            <span class='headerFont'>".iconv('cp1251', 'utf8', $price['service'])."</span>
                             <br /><br />
-                            <span class='categoryFont'>".$price['description']."</span>
+                            <span class='categoryFont'>".iconv('cp1251', 'utf8', $price['description'])."</span>
                             <br /><br />
-                            <span class='nameFont'>от ".$price['price']." руб/".$unit[0]."</span>
+                            <span class='nameFont'>от ".$price['price']." руб/".iconv('cp1251', 'utf8', $unit[0])."</span>
                         </div>
                     </div>
                     <div style='clear: both;'></div>
                 ";
             }
-
             $count++;
-
         }
 
         echo "
@@ -148,6 +185,15 @@
     }
 
     ?>
+
+	<br /><br />
+	<div style='width: 100%; text-align: center; border: 1px solid #bab9b5; padding-bottom: 25px;'>
+		<br />
+		<span class='nameFont' style='color: #000;'>Минимальный заказ:</span> <span class='nameFont'>от 15000 руб.</span>
+		<br />
+		<span>но мы готовы обсудить ваше предложение &#12484;</span>
+	</div>
+
 </div>
 
 <div id="footer">
@@ -169,16 +215,16 @@
             $contactsResult = $mysqli->query("SELECT * FROM woo_contacts");
             $contacts = $contactsResult->fetch_assoc();
 
-            echo $contacts['country'].", г. ".$contacts['city']."<br />".$contacts['address'];
+            echo iconv('cp1251', 'utf8', $contacts['country']).", г. ".iconv('cp1251', 'utf8', $contacts['city'])."<br />".iconv('cp1251', 'utf8', $contacts['address']);
 
             ?>
         </div>
         <div class="footerSection">
             <span class="headerFont">Как с нами связаться?</span>
-            <br /><br />
+            <br />
             <?php
 
-            echo $contacts['phone1']."<br />".$contacts['phone2']."<br /><a href='mailto:".$contacts['email']."'>".$contacts['email']."</a>";
+            echo "<br />".$contacts['phone1']."<br /><a href='mailto:".$contacts['email']."'>".$contacts['email']."</a>";
 
             ?>
         </div>

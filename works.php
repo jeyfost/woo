@@ -122,7 +122,7 @@ if(!empty($_REQUEST['id'])) {
                 echo "
                   <a href='works.php?c=".$category['id']."'>
                     <div class='workCategory' id='workCategory".$category['id']."'>
-                        <span class='categoriesText'"; if((empty($_REQUEST['id']) and $c == $category['id']) or (!empty($_REQUEST['id']) and $category['id'] == $workCategory[0])) {echo " style='color: #a22222;'";} echo ">".$category['category_name']."</span>
+                        <span class='categoriesText'"; if((empty($_REQUEST['id']) and $c == $category['id']) or (!empty($_REQUEST['id']) and $category['id'] == $workCategory[0])) {echo " style='color: #a22222;'";} echo ">".iconv('cp1251', 'utf8', $category['category_name'])."</span>
                     </div>
                   </a>
                   <div style='width:100%; height: 10px;'></div>
@@ -134,7 +134,12 @@ if(!empty($_REQUEST['id'])) {
         <?php
 
         if(empty($_REQUEST['id'])) {
-            $workResult = $mysqli->query("SELECT * FROM woo_works WHERE category = '".$c."' ORDER BY priority");
+        	if($_REQUEST['c'] == 4) {
+        		$workResult = $mysqli->query("SELECT * FROM woo_works ORDER BY id DESC");
+			} else {
+        		$workResult = $mysqli->query("SELECT * FROM woo_works WHERE category = '".$c."' ORDER BY priority");
+			}
+
             $count = 0;
 
             while($work = $workResult->fetch_assoc()) {
@@ -143,7 +148,7 @@ if(!empty($_REQUEST['id'])) {
                         <div class='workPreview' id='workPreview".$work['id']."'>
                             <img src='img/works/preview/".$work['preview']."' style='width: 300px; height: 300px;' />
                             <br /><br />
-                            <span class='nameFont'>".$work['name']."</span>
+                            <span class='nameFont'>".iconv('cp1251', 'utf8', $work['name'])."</span>
                             <div class='workOverlay' id='overlay".$work['id']."'></div>
                         </div>
                     </a>
@@ -165,11 +170,11 @@ if(!empty($_REQUEST['id'])) {
             echo "
                 </div>
                 <div class='halfContainer' id='workDescriptionContainer'>
-                    <span class='headerFont'>".$work['name']."</span>
+                    <span class='headerFont'>".iconv('cp1251', 'utf8', $work['name'])."</span>
                     <br /><br />
-                    <span class='categoryFont'>техника: </span>".$work['technics']."
+                    <span class='categoryFont'>техника: </span>".iconv('cp1251', 'utf8', $work['technics'])."
                     <br /><br />
-                    ".nl2br($work['description'])."
+                    ".iconv('cp1251', 'utf8', nl2br($work['description']))."
                     <br /><br />
                     <div id='button'>
                         <a href='works.php?c=".$work['category']."'>
@@ -204,7 +209,7 @@ if(!empty($_REQUEST['id'])) {
             $contactsResult = $mysqli->query("SELECT * FROM woo_contacts");
             $contacts = $contactsResult->fetch_assoc();
 
-            echo $contacts['country'].", г. ".$contacts['city']."<br />".$contacts['address'];
+            echo iconv('cp1251', 'utf8', $contacts['country']).", г. ".iconv('cp1251', 'utf8', $contacts['city'])."<br />".iconv('cp1251', 'utf8', $contacts['address']);
 
             ?>
         </div>
@@ -213,7 +218,7 @@ if(!empty($_REQUEST['id'])) {
             <br /><br />
             <?php
 
-            echo $contacts['phone1']."<br />".$contacts['phone2']."<br /><a href='mailto:".$contacts['email']."'>".$contacts['email']."</a>";
+            echo $contacts['phone1']."<br /><a href='mailto:".$contacts['email']."'>".$contacts['email']."</a>";
 
             ?>
         </div>

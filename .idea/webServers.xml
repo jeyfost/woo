@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="499939ee-5fca-4d83-8288-7517733cb39d" name="WooWoo FTP" url="http://ftp.woowoo.nichost.ru">
+        <fileTransfer host="ftp.woowoo.nichost.ru" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
