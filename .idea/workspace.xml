@@ -2,93 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f9898053-d2e7-4958-bf35-ef51ecbfb151" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources.ids" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/admin/add.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/admin/delete.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/admin/division.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/admin/dollar.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/admin/e.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/admin/edit.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/admin/exit.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/admin/favicon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/admin/info.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/admin/monitor.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/admin/n.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/admin/settings.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/admin/slogan.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/admin/text.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/favicon/android-icon-144x144.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/favicon/android-icon-192x192.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/favicon/android-icon-36x36.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/favicon/android-icon-48x48.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/favicon/android-icon-72x72.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/favicon/android-icon-96x96.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/favicon/apple-icon-114x114.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/favicon/apple-icon-120x120.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/favicon/apple-icon-144x144.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/favicon/apple-icon-152x152.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/favicon/apple-icon-180x180.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/favicon/apple-icon-57x57.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/favicon/apple-icon-60x60.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/favicon/apple-icon-72x72.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/favicon/apple-icon-76x76.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/favicon/apple-icon-precomposed.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/favicon/apple-icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/favicon/favicon-16x16.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/favicon/favicon-32x32.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/favicon/favicon-96x96.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/favicon/favicon.ico" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/favicon/ms-icon-144x144.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/favicon/ms-icon-150x150.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/favicon/ms-icon-310x310.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/favicon/ms-icon-70x70.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/fb.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/ig.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/main - копия.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/main.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/process/1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/process/2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/process/3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/process/4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/process/5.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/raster.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/spinner.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/vk.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/works/big/1c57ab641fded2f70e5a7bd8f4271b71.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/works/big/1d2e46156da123c4ddd19da0aab34d05.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/works/big/4124ed42c00d14d947f06bdaf4942052.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/works/big/4b2cebad8cc4ded949aceab0d8ecd3e3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/works/big/5b6d93b6461b553e4bd6f0d4443de1cb.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/works/big/5bb58d34f1b6172d29990488ced658c0.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/works/big/9b3e65f7167599c66842d09d5b39bc2a.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/works/big/c39375337d265f5b82bea93ba6d943db.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/works/big/c4a1eee0f6a27a12d5f307ffc9e08e9c.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/works/big/dc835aea0fdce8633d93956af5f8e193.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/works/preview/4124ed42c00d14d947f06bdaf4942052.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/works/preview/5bb58d34f1b6172d29990488ced658c0.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/works/small/1c57ab641fded2f70e5a7bd8f4271b71.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/works/small/1d2e46156da123c4ddd19da0aab34d05.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/works/small/4124ed42c00d14d947f06bdaf4942052.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/works/small/4b2cebad8cc4ded949aceab0d8ecd3e3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/works/small/5b6d93b6461b553e4bd6f0d4443de1cb.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/works/small/5bb58d34f1b6172d29990488ced658c0.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/works/small/9b3e65f7167599c66842d09d5b39bc2a.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/works/small/c39375337d265f5b82bea93ba6d943db.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/works/small/c4a1eee0f6a27a12d5f307ffc9e08e9c.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/works/small/dc835aea0fdce8633d93956af5f8e193.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/works/small/f9bfcc7381a28b3ffccd1e6f31070c95.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources/145027a2-829b-4924-8086-de34d94b5465.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/deployment.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/webServers.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/favicon/browserconfig.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/favicon/manifest.json" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/contacts.php" afterPath="$PROJECT_DIR$/contacts.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/price.php" afterPath="$PROJECT_DIR$/price.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/works.php" afterPath="$PROJECT_DIR$/works.php" />
     </list>
     <ignored path="woo2.iws" />
@@ -139,11 +53,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="120" column="0" lean-forward="true" selection-start-line="120" selection-start-column="0" selection-end-line="120" selection-end-column="0" />
+            <state relative-caret-position="591">
+              <caret line="122" column="0" lean-forward="false" selection-start-line="122" selection-start-column="0" selection-end-line="122" selection-end-column="0" />
               <folding>
                 <marker date="1497536444911" expanded="true" signature="5971:5997" ph="..." />
               </folding>
@@ -177,11 +91,9 @@
       <file leaf-file-name="price.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/price.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-174">
+            <state relative-caret-position="3298">
               <caret line="194" column="4" lean-forward="false" selection-start-line="194" selection-start-column="4" selection-end-line="194" selection-end-column="4" />
               <folding>
-                <element signature="n#style#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <marker date="1497530219207" expanded="true" signature="5808:5854" ph="..." />
                 <marker date="1497530219207" expanded="true" signature="5973:6160" ph="..." />
                 <marker date="1497530219207" expanded="true" signature="6022:6067" ph="..." />
@@ -214,29 +126,33 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="works.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="works.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/works.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="404">
-              <caret line="220" column="16" lean-forward="true" selection-start-line="220" selection-start-column="16" selection-end-line="220" selection-end-column="16" />
+            <state relative-caret-position="408">
+              <caret line="64" column="83" lean-forward="false" selection-start-line="64" selection-start-column="83" selection-end-line="64" selection-end-column="83" />
               <folding>
-                <marker date="1497519946572" expanded="true" signature="104:189" ph="..." />
-                <marker date="1497519946572" expanded="true" signature="427:526" ph="..." />
-                <marker date="1497519946572" expanded="true" signature="5620:5712" ph="..." />
-                <marker date="1497519946572" expanded="true" signature="5843:5873" ph="..." />
-                <marker date="1497519946572" expanded="true" signature="6473:6498" ph="..." />
-                <marker date="1497519946572" expanded="true" signature="6717:6757" ph="SELECT * FRO... woo_works" />
-                <marker date="1497519946572" expanded="true" signature="6813:6880" ph="SELECT * FRO... woo_works" />
-                <marker date="1497519946572" expanded="true" signature="7845:7942" ph="SELECT * FRO... woo_works_photos" />
-                <marker date="1497519946572" expanded="true" signature="8033:8046" ph="..." />
-                <marker date="1497519946572" expanded="true" signature="8414:8461" ph="..." />
-                <marker date="1497519946572" expanded="true" signature="8414:8607" ph="..." />
-                <marker date="1497519946572" expanded="true" signature="8414:8707" ph="..." />
-                <marker date="1497519946572" expanded="true" signature="8414:9045" ph="..." />
-                <marker date="1497519946572" expanded="true" signature="8833:8880" ph="..." />
-                <marker date="1497519946572" expanded="true" signature="8833:9022" ph="..." />
-                <marker date="1497519946572" expanded="true" signature="8902:8995" ph="..." />
-                <marker date="1497519946572" expanded="true" signature="10049:10075" ph="..." />
+                <marker date="1498942003946" expanded="true" signature="104:189" ph="..." />
+                <marker date="1498942003946" expanded="true" signature="427:526" ph="..." />
+                <marker date="1498942003946" expanded="true" signature="2995:3002" ph="«" />
+                <marker date="1498942003946" expanded="true" signature="3044:3051" ph="»" />
+                <marker date="1498942003946" expanded="true" signature="5784:5876" ph="..." />
+                <marker date="1498942003946" expanded="true" signature="6007:6037" ph="..." />
+                <marker date="1498942003946" expanded="true" signature="6637:6662" ph="..." />
+                <marker date="1498942003946" expanded="true" signature="6881:6921" ph="SELECT * FRO... woo_works" />
+                <marker date="1498942003946" expanded="true" signature="6977:7044" ph="SELECT * FRO... woo_works" />
+                <marker date="1498942003946" expanded="true" signature="8009:8106" ph="SELECT * FRO... woo_works_photos" />
+                <marker date="1498942003946" expanded="true" signature="8197:8210" ph="..." />
+                <marker date="1498942003946" expanded="true" signature="8578:8649" ph="..." />
+                <marker date="1498942003946" expanded="true" signature="8578:8795" ph="..." />
+                <marker date="1498942003946" expanded="true" signature="8578:9021" ph="..." />
+                <marker date="1498942003946" expanded="true" signature="8578:9359" ph="..." />
+                <marker date="1498942003946" expanded="true" signature="8632:8647" ph="..." />
+                <marker date="1498942003946" expanded="true" signature="8907:8965" ph="..." />
+                <marker date="1498942003946" expanded="true" signature="9147:9194" ph="..." />
+                <marker date="1498942003946" expanded="true" signature="9147:9336" ph="..." />
+                <marker date="1498942003946" expanded="true" signature="9216:9309" ph="..." />
+                <marker date="1498942003946" expanded="true" signature="10363:10389" ph="..." />
               </folding>
             </state>
           </provider>
@@ -326,9 +242,9 @@
         <option value="$PROJECT_DIR$/admin/db.php" />
         <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/scripts/config.php" />
-        <option value="$PROJECT_DIR$/works.php" />
         <option value="$PROJECT_DIR$/price.php" />
         <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/works.php" />
       </list>
     </option>
   </component>
@@ -366,6 +282,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -379,23 +296,8 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="woo2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="woo2.local" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="scripts" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -530,7 +432,9 @@
       <workItem from="1497290808360" duration="636000" />
       <workItem from="1497372988732" duration="2299000" />
       <workItem from="1497505583098" duration="4197000" />
-      <workItem from="1497519676077" duration="4128000" />
+      <workItem from="1497519676077" duration="4258000" />
+      <workItem from="1497591240761" duration="605000" />
+      <workItem from="1498941521135" duration="520000" />
     </task>
     <task id="LOCAL-00001" summary="UPD">
       <created>1464255787595</created>
@@ -763,27 +667,35 @@
       <option name="project" value="LOCAL" />
       <updated>1488033221816</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="Правки дизайна">
+      <created>1497536494660</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1497536494660</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16991000" />
+    <option name="totallyTimeSpent" value="18246000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.12275064" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26863754" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27506426" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32985657" sideWeight="0.5" order="11" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12403599" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293011" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32985657" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32985657" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -809,7 +721,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Изменены названия таблиц БД" />
     <MESSAGE value="Создана страница контактов" />
     <MESSAGE value="Доработана страница контактов" />
     <MESSAGE value="Добавлена reCaptha в раздел обратной связи" />
@@ -834,7 +745,8 @@
     <MESSAGE value="Изменены иконки социальных сетей" />
     <MESSAGE value="Изменены мета-теги, убран скрипт из футера" />
     <MESSAGE value="Исправлено удаление работ" />
-    <option name="LAST_COMMIT_MESSAGE" value="Исправлено удаление работ" />
+    <MESSAGE value="Правки дизайна" />
+    <option name="LAST_COMMIT_MESSAGE" value="Правки дизайна" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1180,26 +1092,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="697">
           <caret line="41" column="40" lean-forward="false" selection-start-line="41" selection-start-column="40" selection-end-line="41" selection-end-column="40" />
-          <folding>
-            <marker date="1488032831631" expanded="true" signature="112:156" ph="..." />
-            <marker date="1488032831631" expanded="true" signature="234:310" ph="..." />
-            <marker date="1488032831631" expanded="true" signature="412:464" ph="..." />
-            <marker date="1488032831631" expanded="true" signature="412:468" ph="..." />
-            <marker date="1488032831631" expanded="true" signature="412:476" ph="..." />
-            <marker date="1488032831631" expanded="true" signature="590:628" ph="..." />
-            <marker date="1488032831631" expanded="true" signature="762:804" ph="..." />
-            <marker date="1488032831631" expanded="true" signature="762:826" ph="..." />
-            <marker date="1488032831631" expanded="true" signature="762:844" ph="..." />
-            <marker date="1488032831631" expanded="true" signature="964:993" ph="..." />
-            <marker date="1488032831631" expanded="true" signature="964:997" ph="..." />
-            <marker date="1488032831631" expanded="true" signature="964:1026" ph="..." />
-            <marker date="1488032831631" expanded="true" signature="964:1039" ph="..." />
-            <marker date="1488032831631" expanded="true" signature="964:1056" ph="..." />
-            <marker date="1488032831631" expanded="true" signature="1109:1180" ph="..." />
-            <marker date="1488032831631" expanded="true" signature="1252:1314" ph="..." />
-            <marker date="1488032831631" expanded="true" signature="1486:1542" ph="..." />
-            <marker date="1488032831631" expanded="true" signature="1672:1730" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1207,7 +1099,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2465">
           <caret line="144" column="9" lean-forward="false" selection-start-line="144" selection-start-column="9" selection-end-line="144" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1215,15 +1106,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="16" lean-forward="true" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
-          <folding>
-            <marker date="1488035668880" expanded="true" signature="556:624" ph="SELECT MAX(p... woo_works" />
-            <marker date="1488035668880" expanded="true" signature="1197:1253" ph="SELECT * FRO... woo_works" />
-            <marker date="1488035668880" expanded="true" signature="1363:1453" ph="UPDATE woo_w... " />
-            <marker date="1488035668880" expanded="true" signature="1490:1683" ph="INSERT INTO woo_works... " />
-            <marker date="1488035668880" expanded="true" signature="2070:2099" ph="SELECT MAX(i... woo_works" />
-            <marker date="1488035668880" expanded="true" signature="2177:2304" ph="INSERT INTO woo_works_photos... " />
-            <marker date="1488035668880" expanded="true" signature="3243:3366" ph="INSERT INTO woo_works_photos... " />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1288,39 +1170,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/works.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="404">
-          <caret line="220" column="16" lean-forward="true" selection-start-line="220" selection-start-column="16" selection-end-line="220" selection-end-column="16" />
-          <folding>
-            <marker date="1497519946572" expanded="true" signature="104:189" ph="..." />
-            <marker date="1497519946572" expanded="true" signature="427:526" ph="..." />
-            <marker date="1497519946572" expanded="true" signature="5620:5712" ph="..." />
-            <marker date="1497519946572" expanded="true" signature="5843:5873" ph="..." />
-            <marker date="1497519946572" expanded="true" signature="6473:6498" ph="..." />
-            <marker date="1497519946572" expanded="true" signature="6717:6757" ph="SELECT * FRO... woo_works" />
-            <marker date="1497519946572" expanded="true" signature="6813:6880" ph="SELECT * FRO... woo_works" />
-            <marker date="1497519946572" expanded="true" signature="7845:7942" ph="SELECT * FRO... woo_works_photos" />
-            <marker date="1497519946572" expanded="true" signature="8033:8046" ph="..." />
-            <marker date="1497519946572" expanded="true" signature="8414:8461" ph="..." />
-            <marker date="1497519946572" expanded="true" signature="8414:8607" ph="..." />
-            <marker date="1497519946572" expanded="true" signature="8414:8707" ph="..." />
-            <marker date="1497519946572" expanded="true" signature="8414:9045" ph="..." />
-            <marker date="1497519946572" expanded="true" signature="8833:8880" ph="..." />
-            <marker date="1497519946572" expanded="true" signature="8833:9022" ph="..." />
-            <marker date="1497519946572" expanded="true" signature="8902:8995" ph="..." />
-            <marker date="1497519946572" expanded="true" signature="10049:10075" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/price.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-174">
+        <state relative-caret-position="3298">
           <caret line="194" column="4" lean-forward="false" selection-start-line="194" selection-start-column="4" selection-end-line="194" selection-end-column="4" />
           <folding>
-            <element signature="n#style#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
             <marker date="1497530219207" expanded="true" signature="5808:5854" ph="..." />
             <marker date="1497530219207" expanded="true" signature="5973:6160" ph="..." />
             <marker date="1497530219207" expanded="true" signature="6022:6067" ph="..." />
@@ -1354,10 +1208,40 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="120" column="0" lean-forward="true" selection-start-line="120" selection-start-column="0" selection-end-line="120" selection-end-column="0" />
+        <state relative-caret-position="591">
+          <caret line="122" column="0" lean-forward="false" selection-start-line="122" selection-start-column="0" selection-end-line="122" selection-end-column="0" />
           <folding>
             <marker date="1497536444911" expanded="true" signature="5971:5997" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/works.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="64" column="83" lean-forward="false" selection-start-line="64" selection-start-column="83" selection-end-line="64" selection-end-column="83" />
+          <folding>
+            <marker date="1498942003946" expanded="true" signature="104:189" ph="..." />
+            <marker date="1498942003946" expanded="true" signature="427:526" ph="..." />
+            <marker date="1498942003946" expanded="true" signature="2995:3002" ph="«" />
+            <marker date="1498942003946" expanded="true" signature="3044:3051" ph="»" />
+            <marker date="1498942003946" expanded="true" signature="5784:5876" ph="..." />
+            <marker date="1498942003946" expanded="true" signature="6007:6037" ph="..." />
+            <marker date="1498942003946" expanded="true" signature="6637:6662" ph="..." />
+            <marker date="1498942003946" expanded="true" signature="6881:6921" ph="SELECT * FRO... woo_works" />
+            <marker date="1498942003946" expanded="true" signature="6977:7044" ph="SELECT * FRO... woo_works" />
+            <marker date="1498942003946" expanded="true" signature="8009:8106" ph="SELECT * FRO... woo_works_photos" />
+            <marker date="1498942003946" expanded="true" signature="8197:8210" ph="..." />
+            <marker date="1498942003946" expanded="true" signature="8578:8649" ph="..." />
+            <marker date="1498942003946" expanded="true" signature="8578:8795" ph="..." />
+            <marker date="1498942003946" expanded="true" signature="8578:9021" ph="..." />
+            <marker date="1498942003946" expanded="true" signature="8578:9359" ph="..." />
+            <marker date="1498942003946" expanded="true" signature="8632:8647" ph="..." />
+            <marker date="1498942003946" expanded="true" signature="8907:8965" ph="..." />
+            <marker date="1498942003946" expanded="true" signature="9147:9194" ph="..." />
+            <marker date="1498942003946" expanded="true" signature="9147:9336" ph="..." />
+            <marker date="1498942003946" expanded="true" signature="9216:9309" ph="..." />
+            <marker date="1498942003946" expanded="true" signature="10363:10389" ph="..." />
           </folding>
         </state>
       </provider>

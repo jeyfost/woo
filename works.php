@@ -58,7 +58,13 @@ if(!empty($_REQUEST['id'])) {
     <link href='https://fonts.googleapis.com/css?family=EB+Garamond' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
 
-    <title>Работы | Woo Woo Design</title>
+	<?php
+		if(empty($_REQUEST['id'])) {
+			echo "<title>Работы | Woo Woo Design</title>";
+		} else {
+			echo "<title>&laquo;".iconv('cp1251', 'utf8', $work['name'])."&raquo; — Woo Woo Design</title>";
+		}
+	?>
 
 	<style>
 		#page-preloader {position: fixed; left: 0; top: 0; right: 0; bottom: 0; background: #fff; z-index: 100500;}
@@ -170,10 +176,12 @@ if(!empty($_REQUEST['id'])) {
             echo "
                 </div>
                 <div class='halfContainer' id='workDescriptionContainer'>
-                    <span class='headerFont'>".iconv('cp1251', 'utf8', $work['name'])."</span>
+                    <span class='headerFont' style='color: #a22222;'>".iconv('cp1251', 'utf8', $work['name'])."</span>
                     <br /><br />
                     <span class='categoryFont'>техника: </span>".iconv('cp1251', 'utf8', $work['technics'])."
                     <br /><br />
+                    <div style='width: 100%; height: 10px; border-bottom: 1px dotted #bbb;'></div>
+                    <br />
                     ".iconv('cp1251', 'utf8', nl2br($work['description']))."
                     <br /><br />
                     <div id='button'>
