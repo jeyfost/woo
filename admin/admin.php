@@ -2,13 +2,11 @@
 
 session_start();
 
-const SECRET_LOGIN = "gospozha";
+include("../scripts/connect.php");
 
-if(!isset($_SESSION['userID']) or $_SESSION['userID'] != 1) {
+if($_SESSION['userRole'] != ADMINISTRATOR) {
 	header("Location: ../index.php");
 }
-
-include("../scripts/connect.php");
 
 $userResult = $mysqli->query("SELECT * FROM users WHERE id = '".$_SESSION['userID']."'");
 $user = $userResult->fetch_assoc();

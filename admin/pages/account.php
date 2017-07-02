@@ -2,7 +2,9 @@
 
 session_start();
 
-if(!isset($_SESSION['userID']) or $_SESSION['userID'] != 1) {
+include("../../scripts/connect.php");
+
+if($_SESSION['userRole'] != ADMINISTRATOR) {
 	header("Location: ../index.php");
 }
 
@@ -111,6 +113,8 @@ if(!isset($_SESSION['userID']) or $_SESSION['userID'] != 1) {
 	<div style="margin: 40px auto auto 40px; font-size: 24px;">
 		<h1>Управление учётной записью</h1>
 		<div style="font-size: 18px; margin-top: -20px;">Раздел изменения логина и пароля администратора</div>
+		<br />
+		<a href="create.php" style="font-size: 18px; color: #a22222;" class="link">Добавить администратора</a>
 		<br /><br />
 		<form method="post" id="admSettingsForm">
 			<div id="admResponseField"></div>

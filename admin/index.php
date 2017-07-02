@@ -2,7 +2,9 @@
 
 session_start();
 
-if(isset($_SESSION['userID']) and $_SESSION['userID'] == 1) {
+include("../scripts/connect.php");
+
+if($_SESSION['userRole'] == ADMINISTRATOR) {
 	header("Location: admin.php");
 }
 

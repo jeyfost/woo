@@ -1,6 +1,7 @@
 <?php
 	include('config.php');
-	
+	include('const.php');
+
 	$mysqli = new mysqli($host, $user, $password, $db);
 
 	if(!$mysqli)

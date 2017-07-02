@@ -2,11 +2,11 @@
 
 session_start();
 
-if(!isset($_SESSION['userID']) or $_SESSION['userID'] != 1) {
+include("../../scripts/connect.php");
+
+if($_SESSION['userRole'] != ADMINISTRATOR) {
 	header("Location: ../index.php");
 }
-
-include("../../scripts/connect.php");
 
 ?>
 

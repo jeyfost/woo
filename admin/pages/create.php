@@ -1,4 +1,10 @@
 <?php
+/**
+ * Created by PhpStorm.
+ * User: jeyfost
+ * Date: 02.07.2017
+ * Time: 14:46
+ */
 
 session_start();
 
@@ -30,7 +36,7 @@ if($_SESSION['userRole'] != ADMINISTRATOR) {
 
     <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
 	<script type="text/javascript" src="../../js/admMenu.js"></script>
-	<script type="text/javascript" src="../../js/admDeleteWork.js"></script>
+	<script type="text/javascript" src="../../js/create.js"></script>
 
 </head>
 
@@ -73,7 +79,7 @@ if($_SESSION['userRole'] != ADMINISTRATOR) {
 		</a>
 		<div class="uml"></div>
 		<a href="deleteWork.php" onmouseover="umcBG(1, 'umc5')" onmouseout="umcBG(0, 'umc5')">
-			<div class="umc" id="umc5" style="background-color: #595959;">
+			<div class="umc" id="umc5">
 				<div class="umc" style="padding-left: 0;"><img src="../../img/admin/delete.png" style="margin-top: 21px;" /></div>
 				<div style="margin-top: 18px; relative; float: left;">
 					Удаление работ
@@ -91,7 +97,7 @@ if($_SESSION['userRole'] != ADMINISTRATOR) {
 		</a>
 		<div class="uml"></div>
 		<a href="account.php" onmouseover="umcBG(1, 'umc7')" onmouseout="umcBG(0, 'umc7')">
-			<div class="umc" id="umc7">
+			<div class="umc" id="umc7" style="background-color: #595959;">
 				<div class="umc" style="padding-left: 0;"><img src="../../img/admin/settings.png" style="margin-top: 21px;" /></div>
 				<div style="margin-top: 18px; relative; float: left;">
 					Управление учётной записью
@@ -109,26 +115,25 @@ if($_SESSION['userRole'] != ADMINISTRATOR) {
 		</a>
 		<div class="uml"></div>
 	</div>
-	<div style="clear: both;"></div>
 
-	<div id="adminContent">
-		<h1>Удаление работ</h1>
-		<div style="font-size: 18px; margin-top: -20px;">Раздел удаления работ</div>
+	<div style="margin: 40px auto auto 40px; font-size: 24px;">
+		<h1>Добавление администратора</h1>
+		<div style="font-size: 18px; margin-top: -20px;">Раздел добавления администратора, который может заходить в панель администрирования</div>
 		<br /><br />
-		<form method="post" id="editWorkForm" name="editWorkForm">
+		<form method="post" id="admSettingsForm">
 			<div id="admResponseField"></div>
-			<label for="deleteWorkCategory">Раздел:</label>
+			<label for="admLoginInput">Логин:</label>
 			<br />
-			<select id="deleteWorkCategory" name="deleteWorkCategory">
-				<option disabled selected>- Выберите раздел -</option>
-				<?php
-					$categoryResult = $mysqli->query("SELECT * FROM works_categories");
-					while($category = $categoryResult->fetch_assoc()) {
-						echo "<option value='".$category['id']."'>".$category['category_name']."</option>";
-					}
-				?>
-			</select>
-			<div id="deleteContainer"></div>
+			<input type="text" name="admLogin" id="admLoginInput" />
+			<br /><br />
+			<label for="admPasswordInput">Новый пароль:</label>
+			<br />
+			<input type="password" name="admPassword" id="admPasswordInput" />
+			<br /><br />
+			<div id="button">
+				<span class="nameFont">Добавить</span>
+				<div class="overlay" id="buttonOverlay"></div>
+			</div>
 		</form>
 	</div>
 

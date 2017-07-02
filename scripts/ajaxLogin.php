@@ -12,6 +12,7 @@ $data = $dataResult->fetch_assoc();
 
 if($data['password'] == $password) {
 	$_SESSION['userID'] = $data['id'];
+	$_SESSION['userRole'] = $data['role'];
 	echo "a";
 } else {
 	echo "b";

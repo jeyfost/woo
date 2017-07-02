@@ -8,6 +8,7 @@ label {color: #000; font-family: 'EB Garamond', serif; font-size: 18px;}
 h1 {font-family: 'Open Sans Condensed', sans-serif; font-size: 30px; color: #000;}
 
 .categoriesText:hover {color: #a22222;}
+.link:hover {text-decoration: underline;}
 #admButton:hover, #admButton1:hover, #admButton2:hover, #admButton3:hover, #admButton4:hover, #admButton5:hover, #admButton6:hover, #button:hover {background-color: #ecd2d2;}
 
 /* public pages */
