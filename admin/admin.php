@@ -2,9 +2,16 @@
 
 session_start();
 
+const SECRET_LOGIN = "gospozha";
+
 if(!isset($_SESSION['userID']) or $_SESSION['userID'] != 1) {
 	header("Location: ../index.php");
 }
+
+include("../scripts/connect.php");
+
+$userResult = $mysqli->query("SELECT * FROM users WHERE id = '".$_SESSION['userID']."'");
+$user = $userResult->fetch_assoc();
 
 ?>
 
@@ -108,10 +115,30 @@ if(!isset($_SESSION['userID']) or $_SESSION['userID'] != 1) {
 		<div class="uml"></div>
 	</div>
 
-	<div style="margin: 40px auto auto 40px; font-size: 24px;">
-		<h1>Панель администрирования</h1>
-		Для начала работы нужно выбрать действие в меню &uarr;
-	</div>
+	<center>
+		<table style="vertical-align: middle; margin-top: 80px;">
+			<tbody>
+				<tr>
+					<td><h1>Добро пожаловать, <span style="color: #a22222; font-weight: bold;"><?= $user['login'] ?></span></h1></td>
+					<?php
+						if($user['login'] == SECRET_LOGIN) {
+							echo "<td style='width: 150px;'><img src='/img/admin/whip.png' /></td>";
+						}
+					?>
+				</tr>
+			</tbody>
+		</table>
+		<br /><br />
+		<span style="font-size: 24px;">Для начала работы нужно выбрать действие в меню &uarr;</span>
+		<?php
+			if($user['login'] == SECRET_LOGIN) {
+				echo "
+					<br /><br />
+					<span style='font-size: 20px; color: #a22222; font-weight: bold;'>Дa будет боль!</span>
+				";
+			}
+		?>
+	</center>
 
 </body>
 
